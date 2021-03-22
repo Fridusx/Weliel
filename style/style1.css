@@ -1,0 +1,14 @@
+.head{
+    padding: 20px;
+    text-align:center;
+    font-family: "Times New Roman", Times, serif;
+    background: black;
+    color:white;
+}
+.revision{
+   text-align:center;
+    padding: 20px;
+    font-size: 35px;
+    
+   font-family: "Brush Script MT", Fantasy;
+}

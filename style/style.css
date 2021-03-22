@@ -1,17 +1,18 @@
 .top{
     padding:30px;
   text-align: center;
-    background:#cd77f2;
+     background-image: url(../images/Space2.png);
     color: white;
-  font-size: 30px; 
+  font-size: 35px; 
 }
 .body1{ 
   text-align: center;
 
 }
 .dtop{
+   
     padding:30px;
-    font-size: 15px; 
+    font-size: 30px; 
   text-align: center;  
     background:#949494;
     font-family:Georgia,serif;
@@ -22,4 +23,26 @@
    width:750px; 
     height:400px  
  
+}
+.lazy{
+    width:100px;
+    height: 100px;
+    
+}
+.pv{
+    width: 150px;
+    height: 100px;
+}
+.OP{
+    padding: 40px;
+  text-align: center;  
+}
+.link{
+    font-size:35px;
+
+}
+.button{
+   
+    text-align:  center;
+    
 }
