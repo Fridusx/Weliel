@@ -1,22 +1,41 @@
-.top{
-    padding:30px;
+
+.headert{
+    background-image: url(../images/Space2.png);
+   padding:80px;
   text-align: center;
-     background-image: url(../images/Space2.png);
+      font-family: 'Times New Roman', serif;
     color: white;
-  font-size: 35px; 
+  font-size: 40px;
+}
+
+.top{
+    padding:15px;
+  text-align: center;
+     
+    color: white;
+  font-size: 10px; 
+    
+    
+    
+    display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+  color: #fff;
+  font-size: 96px;
+  font-family: 'Times New Roman', serif;
+  letter-spacing: -7px; 
+    
+    
+    
 }
 .body1{ 
   text-align: center;
 
 }
-.dtop{
-   
-    padding:30px;
-    font-size: 30px; 
-  text-align: center;  
-    background:#949494;
-    font-family:Georgia,serif;
-}   
+
     
 .xyu{
     
@@ -46,3 +65,70 @@
     text-align:  center;
     
 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+
+
+
+.top{
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+.top:before,
+.top:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+.top:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+.top:after{
+  animation: glitchBotom 2s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-32px,5px) skew(31deg); 
+  }
+}
+
+
+
