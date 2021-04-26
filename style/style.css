@@ -65,6 +65,11 @@
     text-align:  center;
     
 }
+.QR-code{
+    
+    width: 90px;
+    height: 90px; 
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
