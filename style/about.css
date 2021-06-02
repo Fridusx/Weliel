@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+    padding:0;
+
+}
+body{
+   height: 100%;
+    width: 100%;
+background-image: url(../image/Zolitude.jpeg);
+    background-size: cover;
+    background-position: cover;
+  
+    
+}
+.container{
+    
+  
+     padding-left:5%;
+    padding-right:10%;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.navbar{
+  width: 100%;
+    height:10vh;
+    margin: auto;
+    display:flex;
+    align-items:center;
+ 
+    
+}
+.logo{
+    color:white;
+    font-family: 'Source Code Pro', monospace;
+}
+.nav{
+    flex:29;
+    text-align: center;
+}
+nav ul li{
+    
+   display:inline-block;
+    list-style: none;
+    margin: 50px;
+       transition: 5s ease;
+    
+}
+nav ul li a{
+   text-decoration: none; 
+    color:whitesmoke;
+  
+}
+.content{
+ 
+    
+    
+}
+.content h1{
+     margin-left: 70%;
+    margin-top: 10%;
+   font-size:30px;
+    font-weight: 100;
+    margin-top: 10px;
+    color:white;
+   
+    
+}
+.content p{
+     margin-left: 60%;
+    margin-top: 10%;
+   font-size:18px;
+    margin-top: 24px;
+    color:white;
+  
+    
+}
+
+.DS a{
+    font-family: 'Pattaya', sans-serif;
+     margin-left: 74%;
+    margin-top: 10%;
+   color:white;
+    font-size:40px;
+    text-decoration: none;
+   transition: 5s ease;
+    
+}
+.image img{
+   
+   height: 50vh;
+   width: 45vh;
+}
+
+ 
