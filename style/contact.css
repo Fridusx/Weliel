@@ -27,14 +27,15 @@ body{
 }
 
 input[type="submit"] {
+    color: white;
   padding: 15px 30px;
   margin: 20px auto 0;
   display: block;
   padding: 6px 30px;
   font-size: 14px;
   background-color: #4460AA;
-  color: #fff;
-  border: none
+  
+  border: #4460AA;
 
  
   
@@ -120,19 +121,19 @@ input[type="submit"] {
 
 .field {
   margin-bottom: 20px;
-  background: #f8f9fa;
+  background: white;
 }
 
 .form-mid {
  
   padding: 3rem;
-  border: 1px solid #eee;
+  border: 1px solid white;
   border-radius: 4px;
 }
 
 .form-mid form input,
 .form-mid form textarea {
-  background: #f8f9fa;
+  background: white;
   border: 2px solid rgba(216, 216, 216, 0.3);
   color: #777;
   font-size: 16px;
@@ -151,6 +152,6 @@ input[type="submit"] {
 .form-mid form textarea:focus {
   outline: none;
   border: 2px solid #051b35;
-  background: #fff;
+  background: white;
   box-shadow: none;
 }

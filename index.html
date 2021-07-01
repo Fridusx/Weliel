@@ -3,13 +3,14 @@
 <html>
  <head>
     <title>Weliel</title>
-      <meta name="keywords" content="Weliel,Latvia Weliel, Все проекты weliel,weliel,сайты weliel,all projects weliel,website weliel">
+      <meta name="keywords" content="Все проекты weliel,weliel,сайты weliel,all projects weliel,website weliel">
     <meta name="description" content="it helps people understand what a website is">
       <link rel="icon" href="image/logo.png" type="image/x-icon">
      <meta name="yandex-verification" content="500aa050ed59dbc4" />
     <meta name="google-site-verification" content="wv2S4N_oHP6wENMvsv1XP9a5WKZBvqljyAogcr8soAA" />
      
     <link rel="stylesheet" type="text/css" href="style/index.css">
+     <script src="script.js"></script>
      <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
      
@@ -21,11 +22,58 @@
          <h1>Weliel.tk</h1>
           </div>
           <ul>
-          <li><a href="http://weliel.tk/about">About</a></li>
-              <li><a href="http://weliel.tk/project">All project</a></li>
-              <li><a href="http://weliel.tk/contact%20Me">Contact Me </a></li>
+          <li><a href="http://www.weliel.tk/about">About</a></li>
+              <li><a href="http://www.weliel.tk/project">All project</a></li>
+              <li><a href="http://www.weliel.tk/contact Me">Contact Me </a></li>
           </ul>
         </div>
+    
+		
+		
+		
+		<div class="clock">
+			
+			<h1>
+			<span id="day">Day</span>
+				<span>:</span>
+				<span id="month">2</span>
+				
+			<span>|</span>	
+				
+			<span id="hours">Hours</span>
+			<span>:</span>
+				<span id="minutes">Minutes</span>
+				<span>:</span>
+				<span id="seconds">Seconds</span>
+			<span id="am_or_pm">AM</span>
+				
+				</h1>
+			
+			</div>
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
         <div class="title">
         <h1>Weliel</h1>
         </div>
@@ -33,6 +81,58 @@
             <a href="https://vk.com/arsenyvolodov" class="btn">My VK</a>
              
             </div>
+		
+		
+		
+		
+		
+		<script>
+			
+	function autoTimeUpdate(){		
+	
+		
+		
+		
+var dateTime = new Date();
+var day = dateTime.getDate();
+var month = dateTime.getMonth();		
+var hours = dateTime.getHours();
+var minutes = dateTime.getMinutes();
+var seconds = dateTime.getSeconds();
+var am_or_pm = document.getElementById("am_or_pm")	
+
+if(hours >=12){
+	am_or_pm.innerHTML = "PM";
+	
+}else{
+	am_or_pm.innerHTML = "AM";
+	
+}
+//when hours is in 12 to 24 :)//
+if(hours >12){
+	
+	hours = hours - 12;
+	
+	
+}		
+
+			
+			
+document.getElementById('day').innerHTML = day;		
+document.getElementById('month').innerHTML = month;					
+document.getElementById('hours').innerHTML = hours;
+document.getElementById('minutes').innerHTML = minutes;
+document.getElementById('seconds').innerHTML = seconds;
+
+
+	
+		
+	}
+	
+setInterval(autoTimeUpdate,1000)
+			
+	</script>
       </header>
-    </body>    
+    </body> 
+	
 </html>
