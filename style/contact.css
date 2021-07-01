@@ -155,3 +155,21 @@ input[type="submit"] {
   background: white;
   box-shadow: none;
 }
+.nav{
+    flex:60;
+    text-align: center;
+	
+}
+nav ul li{
+   
+   display:inline-block;
+    list-style: none;
+    margin:10px;
+       transition: 5s ease;
+    
+}
+nav ul li a{
+   text-decoration: none; 
+    color:whitesmoke;
+  
+}
