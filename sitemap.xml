@@ -4,14 +4,14 @@
 
 <url>
  <loc>http://weliel.tk</loc>   
-   <lastmod>2021-03-06</lastmod> 
+   <lastmod>2021-03-07</lastmod> 
     <changefreq>weekly</changefreq>
     <priority>2</priority>
 </url>
  
  <url>
     <loc>http://weliel.tk/about.html</loc>
-    <lastmod>2021-03-06</lastmod> 
+    <lastmod>2021-03-07</lastmod> 
     <changefreq>weekly</changefreq>
       <priority>1.5</priority> 
     </url> 
@@ -19,14 +19,14 @@
  
  <url>
     <loc>hhttp://weliel.tk/contact%20Me.html</loc>
-    <lastmod>2021-03-06</lastmod> 
+    <lastmod>2021-03-07</lastmod> 
     <changefreq>weekly</changefreq>
       <priority>1</priority> 
     </url> 
  
   <url>
     <loc>http://weliel.tk/project.html</loc>
-    <lastmod>2021-03-06</lastmod> 
+    <lastmod>2021-03-07</lastmod> 
     <changefreq>weekly</changefreq>
       <priority>0.5</priority> 
     </url> 
@@ -34,7 +34,7 @@
  
    <url>
     <loc>http://weliel.tk/weliel.html</loc>
-    <lastmod>2021-03-06</lastmod> 
+    <lastmod>2021-03-07</lastmod> 
     <changefreq>weekly</changefreq>
       <priority>0.5</priority> 
     </url> 
