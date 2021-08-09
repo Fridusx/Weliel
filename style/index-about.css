@@ -1,0 +1,77 @@
+
+.Weliel_Games{
+  background-image:url(../image/background-about.jpg);
+height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+
+.AboutWelielGames{
+	  padding:100px;
+	color:white;
+	font-size:20px;
+	
+}
+.WG{
+	position:absolute;
+   top:90%;
+	right:50%;
+	
+    transform: translate(50%,50%); 
+
+	
+}
+.WG h2{
+	font-family: 'Monoton', cursive;
+	color:white;
+	font-size:45px;
+	padding:150px;
+}
+video{
+	position:absolute;
+   top:115%;
+	right:50%;
+	
+    transform: translate(50%,50%); 
+
+}
+
+	
+.button1{
+position:absolute;
+   top:185%;
+	right:50%;
+	
+    transform: translate(50%,50%); 
+	
+}
+.Weliel_Games1{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/Back%20city.jpg);
+height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+.Infoweliel{
+	position:absolute;
+   top:203%;
+	right:50%;
+	
+    transform: translate(50%,50%);
+}
+.Infoweliel h2{
+	color:white;
+	font-size: 20px;
+	font-family: 'Comfortaa', cursive;
+}
+.Infoweliel a{
+	color:white;
+	font-size: 20px;
+	font-family: 'Comfortaa', cursive;
+}
+.map{
+	position:absolute;
+   top:210%;
+	right:50%;
+	
+    transform: translate(50%,50%);
+}
