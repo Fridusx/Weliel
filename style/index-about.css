@@ -60,7 +60,7 @@ height:100vh;
 }
 .Infoweliel{
 	position:absolute;
-   top:206%;
+   top:210%;
 	right:50%;
 	
     transform: translate(50%,50%);
@@ -78,7 +78,7 @@ height:100vh;
 .map{
 	position:absolute;
    top:210%;
-	right:50%;
+	right:60%;
 	
     transform: translate(50%,50%);
 }
