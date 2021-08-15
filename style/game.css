@@ -11,7 +11,7 @@ height:100vh;
 }
 .logo{
 	position:absolute;
-   top:15%;
+   top:50%;
 	right:50%;
 	
     transform: translate(50%,50%); 
@@ -20,7 +20,7 @@ height:100vh;
 	font-family: 'Monoton', cursive;
 	color:white;
 	font-size:45px;
-	padding:150px;
+	
 }
 .body{
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/BWG.png);
@@ -30,7 +30,7 @@ height:100vh;
 }
 .LW{
 	position:absolute;
-   top:100%;
+   top:115%;
 	right:50%;
 	
     transform: translate(50%,50%); 
@@ -42,7 +42,7 @@ height:100vh;
 }
 video{
 	position:absolute;
-   top:90%;
+   top:120%;
 	right:50%;
 	
     transform: translate(50%,50%); 
@@ -50,7 +50,7 @@ video{
 }
 .zipfail{
 	position:absolute;
-   top:163%;
+   top:178%;
 	right:50%;
 	
     transform: translate(50%,50%); 
@@ -62,7 +62,7 @@ video{
 }
 .GBAinf{
 	position:absolute;
-   top:173%;
+   top:187%;
 	right:30%;
 	
     transform: translate(50%,50%); 

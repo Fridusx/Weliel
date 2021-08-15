@@ -7,14 +7,21 @@ height:100vh;
 }
 
 .AboutWelielGames{
-	  padding:100px;
-	color:white;
-	font-size:20px;
+	position:absolute;
+   top:100%;
+	right:80%;
 	
+    transform: translate(50%,50%);  
+	
+}
+.AboutWelielGames h1{
+	
+color:white;
+	font-size:25px;	
 }
 .WG{
 	position:absolute;
-   top:94%;
+   top:85%;
 	right:50%;
 	
     transform: translate(50%,50%); 
@@ -53,7 +60,7 @@ height:100vh;
 }
 .Infoweliel{
 	position:absolute;
-   top:203%;
+   top:206%;
 	right:50%;
 	
     transform: translate(50%,50%);
