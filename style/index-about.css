@@ -8,7 +8,7 @@ height:100vh;
 
 .AboutWelielGames{
 	position:absolute;
-   top:100%;
+   top:110%;
 	right:80%;
 	
     transform: translate(50%,50%);  
@@ -21,7 +21,7 @@ color:white;
 }
 .WG{
 	position:absolute;
-   top:85%;
+   top:100%;
 	right:50%;
 	
     transform: translate(50%,50%); 
@@ -31,12 +31,12 @@ color:white;
 .WG h2{
 	font-family: 'Monoton', cursive;
 	color:white;
-	font-size:45px;
+	font-size:35px;
 	padding:150px;
 }
 video{
 	position:absolute;
-   top:125%;
+   top:133%;
 	right:50%;
 	
     transform: translate(50%,50%); 
@@ -46,7 +46,7 @@ video{
 	
 .button1{
 position:absolute;
-   top:185%;
+   top:190%;
 	right:50%;
 	
     transform: translate(50%,50%); 
