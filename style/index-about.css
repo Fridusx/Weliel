@@ -33,7 +33,7 @@ color:white;
  
 .AboutWelielGames{
 	position:absolute;
-   top:102%;
+   top:110%;
 	right:80%;
 	
     transform: translate(50%,50%);  
@@ -80,7 +80,7 @@ font-family: 'Monoton', cursive;
  
 	.WG {
 position:absolute;
-   top:120%;
+   top:125%;
 	right:50%;
 	
     transform: translate(50%,50%); 
@@ -127,7 +127,7 @@ video{
  video{
 	
 	position:absolute;
-   top:120%;
+   top:125%;
 	right:50%;
 	
     transform: translate(50%,50%);
