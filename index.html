@@ -19,6 +19,11 @@
 	 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet"> 
     </head>   
   <body>
+	  
+	 <div class="loader">
+	  <img src="image/Reloda%20weliel%202.0.gif" alt="Loading..."/>
+	  </div>
+	  
     <header>
       <div class="main">
           <div class="logo">
@@ -110,7 +115,15 @@
 	
 	 
 	    
-		<script>
+		<script type="text/javascript">
+			
+	window.addEventListener("load", function (){
+		const loader = document.querySelector(".loader");
+		loader.className += " hidden";
+	})
+			
+			
+	
 			
 	function autoTimeUpdate(){		
 	
@@ -149,7 +162,11 @@ document.getElementById('month').innerHTML = month;
 		
 	}
 	
-setInterval(autoTimeUpdate,1000)
+setInterval(autoTimeUpdate,1000)		
+			
+			
+			
+	
 			
 	</script>
       
