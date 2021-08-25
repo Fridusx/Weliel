@@ -8,17 +8,22 @@
     <title>Contact Form</title>
     <link rel="stylesheet" href="style/contact.css">
 	  
-	  <script>
-		  alert("This page is private");
 	
-	
-	 
-	</script>
 	  
   </head>
   <body>
- 
+ <div class="loader">
+	  <img src="image/Gif%20Logo%202.0.gif" alt="Loading..."/>
+	  </div>
 	
+	 <script>
+	a=prompt("This page is private");
+	if(a!=="riga")
+		
+		window.location="contact Me.html";
+	
+	    
+	</script> 
 	  
 	  
 	  
@@ -83,6 +88,16 @@
  
 <script>
 
+	
+			
+	window.addEventListener("load", function (){
+		const loader = document.querySelector(".loader");
+		loader.className += " hidden";
+	});
+			
+	
+	
+	
 const btn = document.getElementById('button');
 
 document.getElementById('form')

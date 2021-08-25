@@ -12,28 +12,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
 	
 	
-	 <script>
-		
-	
-	
-	    a=prompt("This page is private");
+	<script>
+	a=prompt("This page is private");
 	if(a!=="riga")
 		
-		window.location="http://weliel.tk/contact%20Me";
+		window.location="about.html";
+	
+	    
 	</script>
 	
 	
 </head>
 <body>
   
+	 <div class="loader">
+	  <img src="image/Gif%20Logo%202.0.gif" alt="Loading..."/>
+	  </div>
+	
+	
    <div  class="container">
     <div class="navbar">
        <div class="logo"><h1>Weliel</h1></div>
         <nav>
             <ul>
-            <li><a href="weliel.tk">Home</a></li>
-            <li><a href="http://weliel.tk/contact%20Me">Contac Me</a></li>
-             <li><a href="http://weliel.tk/project">All project</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Contac Me</a></li>
+             <li><a href="">All project</a></li>
             </ul>
         </nav>
        </div>
@@ -57,6 +61,13 @@
        
     </div>
     
-
+<script type="text/javascript">
+			
+	window.addEventListener("load", function (){
+		const loader = document.querySelector(".loader");
+		loader.className += " hidden";
+	});
+			
+	</script>
 </body>
 </html>

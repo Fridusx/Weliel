@@ -20,15 +20,7 @@
     <div class="headert">
     <div class="top">
     
-<script>
-	alert("This page is private");
-	a=prompt("This page is private");
-	if(a!=="riga")
-		
-		window.location="http://weliel.tk/project.html";
-	
-	    
-	</script>
+
         
 
      <div class="top">Weliel</div>
@@ -43,8 +35,8 @@
         
         <ul>
         <li><a href="http://weliel.tk/">Home</a></li>
-        <li><a href="http://weliel.tk/about">About</a></li>
-        <li><a href="http://weliel.tk/contact%20Me">Contact Me</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact Me</a></li>
         </ul>
     </div> 
    
@@ -52,11 +44,22 @@
     
 </head>
 <body>
- 
-    
-       
-        
-
+ <div class="loader">
+	  <img src="image/Gif%20Logo%202.0.gif" alt="Loading..."/>
+	  </div>
+    <script>
+	a=prompt("This page is private");
+	if(a!=="riga")
+		
+		window.location="project.html";
+	
+		
+		
+		
+		
+	    
+	</script>
+     
         
   <div class="body1">
       <h1>Weliel.play</h1>
@@ -210,5 +213,14 @@
        <img src="images/qrcode_weliel.tk.png" class="QR-code">
    </div>
    
+	
+	 <script>
+       window.addEventListener("load", function (){
+		const loader = document.querySelector(".loader");
+		loader.className += " hidden";
+	}); 
+</script>
+	
+	
  </body>
 </html>
