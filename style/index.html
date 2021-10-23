@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+ <head>
+    <title>Weliel</title>
+      <meta name="keywords" content="Все проекты weliel,weliel,сайты weliel,all projects weliel,website weliel">
+    <meta name="description" content="it helps people understand what a website is">
+      <link rel="icon" href="image/logo.png" type="image/x-icon">
+     <meta name="yandex-verification" content="500aa050ed59dbc4" />
+    <meta name="google-site-verification" content="wv2S4N_oHP6wENMvsv1XP9a5WKZBvqljyAogcr8soAA" />
+     <link rel="stylesheet" type="text/css" href="style/index-about.css">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+     <script src="script.js"></script>
+	 
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet"> 
+    </head>   
+  <body>
+	  
+	 <div class="loader">
+	  <img src="image/Reloda%20weliel%202.0.gif" alt="Loading..."/>
+	  </div>
+	  
+    <header>
+      <div class="main">
+          <div class="logo">
+         <h1>Weliel.tk</h1>
+          </div>
+		  
+          <ul>
+			  <li><a href="http://www.weliel.tk/game">Weliel Games </a></li>
+          <li><a href="http://www.weliel.tk/about">About Creator</a></li>
+              <li><a href="http://www.weliel.tk/project">All project</a></li>
+              <li><a href="http://www.weliel.tk/contact Me">Contact Me </a></li>
+          </ul>
+		  </div>
+
+
+    
+		
+		
+		
+		
+		
+		
+	
+		
+        <div class="title">
+        <h1>Weliel</h1>
+        </div>
+		
+        <div class="button">
+            <a href="https://vk.com/arsenyvolodov" class="btn">My VK</a>
+             
+			
+            </div>
+		
+		<div class="mail">
+		<h1>if you have questions info@weliel.tk</h1>
+		</div>
+		
+		<div class="clock">
+			
+			<h1>
+			<span id="day">Day</span>
+				<span>.</span>
+				<span id="month">Month</span>
+				
+			<span>|</span>	
+				
+			<span id="hours">Hours</span>
+			<span>:</span>
+				<span id="minutes">Minutes</span>
+				<span>:</span>
+				<span id="seconds">Seconds</span>
+			<span id="am_or_pm">AM</span>
+				
+				</h1>
+			
+			</div>
+		
+		
+		</header>
+	  
+	  
+	  
+	  
+	  
+	<div class="Weliel_Games">
+		 <div class="AboutWelielGames">
+	   <h1>What you now about Weliel Games?</h1>
+
+		  </div> 
+		<div class="WG">
+		<h2> Weliel Games </h2>
+			
+		</div>
+		<video width="500px"  controls>
+		<source src="Video/Weliel.tk%20Game.m4v" type="video/mp4">
+		
+		Your browser does not support the video tag.
+		</video>
+		
+		<div class="button1">
+		<a href="http://www.weliel.tk/game" class="btn">More information about Weliel Games</a>
+		 </div> 
+	</div>
+	<div class="Weliel_Games1">
+		<div class="Infoweliel">
+			<h2>Weliel is a collection of student projects. I live in Riga, Latvia. In this blog of my projects you can see games, YouTube channel and html page.You can see all this on this Weliel website. If you find any errors in the games or sites, feel free to write here info@weliel.tk, and if you want anonymously, then go to the <a href="http://weliel.tk/contact%20Me">Contact me</a> tab.</h2>
+			</div>
+		</div>
+	  
+	  
+	  
+		<div class="map">
+		<div class="map1">
+			<div ><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Riga%20Van%C5%A1u%20tilts%20+(Riga)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"width="700px"height="350px"frameborder="0"></iframe>></div>
+	
+	  </div>
+	 </div>
+	
+	 
+	    
+		<script type="text/javascript">
+			
+	window.addEventListener("load", function (){
+		const loader = document.querySelector(".loader");
+		loader.className += " hidden";
+	});
+			
+			
+	
+			
+	function autoTimeUpdate(){		
+	
+		
+		
+		
+var dateTime = new Date();
+var day = dateTime.getDate();
+var month = dateTime.getMonth()+1;	
+var hours = dateTime.getHours();
+var minutes = dateTime.getMinutes();
+var seconds = dateTime.getSeconds();
+var am_or_pm = document.getElementById("am_or_pm")	
+
+if(hours >=12){
+	am_or_pm.innerHTML = "PM";
+	
+}else{
+	am_or_pm.innerHTML = "AM";
+	
+}
+//when hours is in 12 to 24 :)//
+if(hours >12){
+	
+	hours = hours - 12;
+	
+	
+}		
+		
+document.getElementById('month').innerHTML = month;			
+document.getElementById('day').innerHTML = day;							
+document.getElementById('hours').innerHTML = hours;
+document.getElementById('minutes').innerHTML = minutes;
+document.getElementById('seconds').innerHTML = seconds;
+
+		
+	}
+	
+setInterval(autoTimeUpdate,1000)		
+			
+			
+			
+	
+			
+	</script>
+      
+   </body>
+	
+</html>
