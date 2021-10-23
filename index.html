@@ -29,16 +29,38 @@
           <div class="logo">
          <h1>Weliel.tk</h1>
           </div>
+		  
           <ul>
 			  <li><a href="http://www.weliel.tk/game">Weliel Games </a></li>
-          <li><a href="http://www.weliel.tk/about">About</a></li>
+          <li><a href="http://www.weliel.tk/about">About Creator</a></li>
               <li><a href="http://www.weliel.tk/project">All project</a></li>
               <li><a href="http://www.weliel.tk/contact Me">Contact Me </a></li>
           </ul>
-        </div>
+		  </div>
+
+
     
 		
 		
+		
+		
+		
+		
+	
+		
+        <div class="title">
+        <h1>Weliel</h1>
+        </div>
+		
+        <div class="button">
+            <a href="https://vk.com/arsenyvolodov" class="btn">My VK</a>
+             
+			
+            </div>
+		
+		<div class="mail">
+		<p>if you have questions info@weliel.tk</p>
+		</div>
 		
 		<div class="clock">
 			
@@ -61,23 +83,11 @@
 			</div>
 		
 		
-	
-		
-        <div class="title">
-        <h1>Weliel</h1>
-        </div>
-		
-        <div class="button">
-            <a href="https://vk.com/arsenyvolodov" class="btn">My VK</a>
-             
-			
-            </div>
-		
-		<div class="mail">
-		<h1>if you have questions info@weliel.tk</h1>
-		</div>
-		
 		</header>
+	  
+	  
+	  
+	  
 	  
 	<div class="Weliel_Games">
 		 <div class="AboutWelielGames">
@@ -132,7 +142,7 @@
 		
 var dateTime = new Date();
 var day = dateTime.getDate();
-var month = dateTime.getMonth();		
+var month = dateTime.getMonth()+1;	
 var hours = dateTime.getHours();
 var minutes = dateTime.getMinutes();
 var seconds = dateTime.getSeconds();
@@ -153,12 +163,12 @@ if(hours >12){
 	
 }		
 		
-			
+document.getElementById('month').innerHTML = month;			
 document.getElementById('day').innerHTML = day;							
 document.getElementById('hours').innerHTML = hours;
 document.getElementById('minutes').innerHTML = minutes;
 document.getElementById('seconds').innerHTML = seconds;
-document.getElementById('month').innerHTML = month;
+
 		
 	}
 	

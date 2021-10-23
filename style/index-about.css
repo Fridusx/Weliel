@@ -26,7 +26,7 @@ height:100vh;
 .AboutWelielGames h1{
 	
 color:white;
-	font-size:25px;	
+	font-size:35px;	
 }
 } 
 
@@ -211,7 +211,7 @@ height:100vh;
 @media (min-width: 1000px) {
 	.Infoweliel{	
 	position:absolute;
-   top:215%;
+   top:205%;
 	right:50%;
 	
     transform: translate(50%,50%);
@@ -219,12 +219,12 @@ height:100vh;
 	
 .Infoweliel h2{
 	color:white;
-	font-size: 25px;
+	font-size: 30px;
 	font-family: 'Comfortaa', cursive;
 }
 .Infoweliel a{
 	color:white;
-	font-size: 25px;
+	font-size: 30px;
 	font-family: 'Comfortaa', cursive;
 }
   
@@ -236,19 +236,19 @@ height:100vh;
 @media (min-width: 320px) and (max-width: 999px) {
 .Infoweliel{	
 	position:absolute;
-   top:225%;
+   top:205%;
 	right:50%;
 	
     transform: translate(50%,50%);
 	}	
  .Infoweliel h2{
 	color:white;
-	font-size: 20px;
+	font-size: 40px;
 	font-family: 'Comfortaa', cursive;
 }
 .Infoweliel a{
 	color:white;
-	font-size:20px;
+	font-size:40px;
 	font-family: 'Comfortaa', cursive;
 }
 	
