@@ -1,3 +1,5 @@
 User-agent:*
+Disallow: /cgin-bin/
+Allow: /images/
 Sitemap: https://weliel.tk/sitemap.xml
 /sitemap.xml
