@@ -8,7 +8,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Press+Start+2P&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
 </head>
 <body>
 	
@@ -47,6 +49,35 @@
 			</h3>
 		</div>
 	</div>
+	<div class="fridus">
+	
+	
+	<div class="FridusGameText">
+	
+	<h1> Fridus </h1>
+	<p>Only Android game</p>
+	<h2>This Game you can download <a href="https://play.google.com/store/apps/details?id=com.WelielGames.Fridus&hl=ru&gl=US">here</a></h2>
+	</div>
+	
+		
+		<!-- Image Slider -->
+		
+		<div class="slider">
+			<div claas="img-box">
+				<img src="image/FridusBack.png" alt="" class="imgFridus1">
+			</div>
+		</div>
+
+		<!-- Next and Prev Button -->
+		<div class="buttonNextPrev"> 
+		<button class="btnNP" onclick="prev()">Prev</button>
+		<button class="btnNP" onclick="next()">Next</button>
+		</div>
+		
+		
+		< div >
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/2eGLpNqqfN4?controls=0"  class="videoyoutube" title="FriDus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
 	
 		<script type="text/javascript">
 			
@@ -55,6 +86,23 @@
 		loader.className += " hidden";
 	});
 			
+		var slider_img = document.querySelector('.imgFridus1');
+		var images = ['FridusBack.png','Fridusgame2.jpg','Fridusgame3.jpg','Fridusgame4.jpg','Fridusgame5.jpg'];
+		var i = 0;	
+		
+	   function prev(){
+		 if(i <= 0 ) i = images.length ;
+		  i--;
+		   return setImg();
+	   }
+	   function next(){
+			if( i >= images.length-1) i = -1
+		   i++;
+		   return setImg();
+	   }
+	  function setImg(){
+		  return slider_img.setAttribute('src','image/' + images[i]);
+	  }
 	</script>
 	
 </body>
