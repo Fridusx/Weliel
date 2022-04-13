@@ -1,5 +1,5 @@
 User-agent:*
-Disallow: /cgin-bin/
+Allow: /cgin-bin/
 Allow: /images/
-Sitemap: https://weliel.tk/sitemap.xml
+Sitemap: https://game.weliel.tk/sitemap.xml
 /sitemap.xml
