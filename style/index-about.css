@@ -26,7 +26,7 @@ height:100vh;
 .AboutWelielGames h1{
 	
 color:white;
-	font-size:35px;	
+	font-size:5vh;	
 }
 } 
 
@@ -45,7 +45,7 @@ color:white;
 .AboutWelielGames h1{
 	
 color:white;
-	font-size:18px;	
+	font-size:2vh;	
 }
 
 }
@@ -71,7 +71,7 @@ position:absolute;
 	.WG h2{
 font-family: 'Monoton', cursive;
 	color:white;
-	font-size:40px;
+	font-size:5vh;
 	
 
 	}
@@ -94,7 +94,7 @@ font-family: 'Monoton', cursive;
 	color:white;
 	
 	
-		font-size:20px;
+		font-size:2vh;
 		
 	}
 
@@ -113,12 +113,12 @@ font-family: 'Monoton', cursive;
 video{
 	
 	position:absolute;
-   top:115%;
+   top:112%;
 	right:50%;
 	
     transform: translate(50%,50%);
 	
-	width: 40%;
+	width: 70vh;
   height: auto;
 }
 
@@ -135,7 +135,7 @@ video{
 	
     transform: translate(50%,50%);
 	
-	width: 40%;
+	width: 30vh;
   height: auto;
 }
 
@@ -211,7 +211,7 @@ height:100vh;
 @media (min-width: 1000px) {
 	.Infoweliel{	
 	position:absolute;
-   top:205%;
+   top:195%;
 	right:50%;
 	
     transform: translate(50%,50%);
@@ -219,12 +219,12 @@ height:100vh;
 	
 .Infoweliel h2{
 	color:white;
-	font-size: 30px;
+	font-size: 3vh;
 	font-family: 'Comfortaa', cursive;
 }
 .Infoweliel a{
 	color:white;
-	font-size: 30px;
+	font-size: 3vh;
 	font-family: 'Comfortaa', cursive;
 }
   
@@ -236,19 +236,19 @@ height:100vh;
 @media (min-width: 320px) and (max-width: 999px) {
 .Infoweliel{	
 	position:absolute;
-   top:205%;
+   top:215%;
 	right:50%;
 	
     transform: translate(50%,50%);
 	}	
  .Infoweliel h2{
 	color:white;
-	font-size: 40px;
+	font-size: 2vh;
 	font-family: 'Comfortaa', cursive;
 }
 .Infoweliel a{
 	color:white;
-	font-size:40px;
+	font-size:2vh;
 	font-family: 'Comfortaa', cursive;
 }
 	
@@ -268,11 +268,12 @@ height:100vh;
 @media (min-width: 1000px) {
 .map{
 	position:absolute;
-   top:230%;
-	right:50%;
+   top:225%;
+	left:10%;
 	
     transform: translate(50%,50%);
-	
+	width: 35vh;
+  height: 15vh;
 }
 	
 } 
