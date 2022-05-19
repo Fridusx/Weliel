@@ -40,6 +40,11 @@ height:100vh;
     background-size:cover;
     background-position:center;
 }
+
+
+
+
+@media (min-width: 1000px) {
 .logo{
 	position:absolute;
    top:50%;
@@ -50,15 +55,46 @@ height:100vh;
 .logo h1{
 	font-family: 'Monoton', cursive;
 	color:white;
-	font-size:45px;
+	font-size:10vh;
 	
 }
+}
+
+
+@media (min-width: 320px) and (max-width: 999px) {
+ .logo{
+	position:absolute;
+   top:50%;
+	right:50%;
+	
+    transform: translate(50%,50%); 
+}
+.logo h1{
+	font-family: 'Permanent Marker', cursive;
+	color:white;
+	font-size:5vh;
+	
+}   
+    
+}
+
+
+
+
+
+
+
+
+
+
 .body{
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/BWG.png);
 height:100vh;
     background-size:cover;
     background-position:center;
 }
+
+@media (min-width: 1000px) {
 .LW{
 	position:absolute;
    top:115%;
@@ -68,17 +104,61 @@ height:100vh;
 }
 .LW h1{
 	color:white;
-	font-size:50px;
+	font-size:9vh;
 	font-family: 'Concert One', cursive;
 }
-video{
+}
+   
+
+
+
+@media (min-width: 320px) and (max-width: 999px) {
+.LW{
 	position:absolute;
-   top:120%;
+   top:115%;
 	right:50%;
 	
     transform: translate(50%,50%); 
-
 }
+.LW h1{
+	color:white;
+	font-size:3.5vh;
+	font-family: 'Concert One', cursive;
+}
+}  
+    
+
+
+
+
+
+@media (min-width: 1000px) {
+    
+video{
+	position:absolute;
+   top:126%;
+	right:50%;
+	
+    transform: translate(50%,50%); 
+width:60vh;
+   
+}
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  video{
+	position:absolute;
+   top:119%;
+	right:50%;
+	
+    transform: translate(50%,50%); 
+width:40vh;
+  
+}  
+}    
+    
+    
+    
+  @media (min-width: 1000px) {  
 .zipfail{
 	position:absolute;
    top:178%;
@@ -88,9 +168,34 @@ video{
 }
 .zipfail a{
 	color:white;
-	font-size:30px;
+	font-size:5vh;
 	font-family: 'Raleway', sans-serif;
+      }
+
+
+
+
+
+
 }
+
+@media (min-width: 320px) and (max-width: 999px) {
+    
+  .zipfail{
+	position:absolute;
+   top:178%;
+	right:50%;
+	
+    transform: translate(50%,50%); 
+}
+.zipfail a{
+	color:white;
+	font-size:2.5vh;
+	font-family: 'Raleway', sans-serif;
+      } 
+    }
+
+@media (min-width: 1000px) {
 .GBAinf{
 	position:absolute;
    top:187%;
@@ -101,14 +206,42 @@ video{
 .GBAinf h3{
  font-family: 'Indie Flower', cursive; 
 	color:white;
-	font-size:20px;
+	font-size:2vh;
 }
+}
+
+@media (min-width: 320px) and (max-width: 999px) {
+    
+   .GBAinf{
+	position:absolute;
+   top:187%;
+	right:30%;
+	
+    transform: translate(50%,50%); 
+}
+.GBAinf h3{
+ font-family: 'Indie Flower', cursive; 
+	color:white;
+	font-size:2vh;
+} 
+}
+    
+    
+    
+    
+    
+    
+
 .fridus{
 	background-image:url(../image/Back%20Fridus%203.gif);
 	height:100vh;
 	background-size:cover;
 	background-position:center;
 }
+
+
+
+@media (min-width: 1000px) {
 .FridusGameText{
  color:white;
 	
@@ -118,7 +251,7 @@ video{
 	top:210%;
 	right:50%;
 	transform: translate(50%,-50%);
-font-size:90px;
+font-size:10vh;
 font-family: 'Varela Round', sans-serif;
 }
 .FridusGameText p{
@@ -126,7 +259,7 @@ font-family: 'Varela Round', sans-serif;
 	top:218%;
 	right:50%;
 	transform: translate(50%,-50%);
-font-size:29px;
+font-size:3vh;
 	font-family: 'Pacifico', cursive;
 }
 .FridusGameText h2{
@@ -134,29 +267,79 @@ font-size:29px;
 	top:223%;
 	right:50%;
 	transform:translate(50%,-50%);
-	font-size:26px;
+	font-size:4vh;
 	font-family: 'Raleway', sans-serif; 
 }
 .FridusGameText h2 a{
 	color:white;
 	font-family: 'Raleway', sans-serif; 
-	font-size:26px;
+	font-size:4vh;
 }
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 999px) {
+  .FridusGameText{
+ color:white;
+	
+}
+.FridusGameText h1{
+	position:absolute;
+	top:210%;
+	right:50%;
+	transform: translate(50%,-50%);
+font-size:4vh;
+font-family: 'Varela Round', sans-serif;
+}
+.FridusGameText p{
+	position:absolute;
+	top:218%;
+	right:50%;
+	transform: translate(50%,-50%);
+font-size:1.5vh;
+	font-family: 'Pacifico', cursive;
+}
+.FridusGameText h2{
+	position:absolute;
+	top:223%;
+	right:50%;
+	transform:translate(50%,-50%);
+	font-size:2vh;
+	font-family: 'Raleway', sans-serif; 
+}
+.FridusGameText h2 a{
+	color:white;
+	font-family: 'Raleway', sans-serif; 
+	font-size:2vh;
+}  
+    
+}
+
+
+
+
+
 .slider{
 	position:absolute;
 	top:242%;
 	right:50%;
 	transform:translate(50%,-50%);
 }
+
+
+@media (min-width: 1000px) {
 .btnNP{
 	border:none;
 	outline:none;
-	background:#888;
-	padding:10px 30px;
-	font-size:20px;
+	background:#3b8ba8;
+	padding:1vh 5vh;
+	font-size:2vh;
 	color:white;
 	cursor:pointer;
-	margin: 10px auto;
+	margin: 1vh auto;
+    font-family: 'Alfa Slab One', cursive;
 }
 .btnNP:hover {
 	background:black;
@@ -166,14 +349,85 @@ font-size:29px;
 	top:260%;
 	right:50%;
 	transform:translate(50%,-50%);
+    
 }
+    
+}
+
+
+
+@media (min-width: 320px) and (max-width: 999px) {
+ .btnNP{
+	border:none;
+	outline:none;
+	background:#3b8ba8;
+	padding:0.5vh 3vh;
+	font-size:1vh;
+	color:white;
+	cursor:pointer;
+	margin: 1vh auto;
+    font-family: 'Alfa Slab One', cursive;
+}
+.btnNP:hover {
+	background:black;
+}
+.buttonNextPrev{
+		position:absolute;
+	top:260%;
+	right:50%;
+	transform:translate(50%,-50%);
+    
+}   
+    
+        
+}
+
+
+
+
+
+
+
+    
+    
+@media (min-width: 1000px) {
 .imgFridus1{
-	height: 300px;
-	width: 600px;
+	height: 30vh;
+	width: 60vh;
+    }}
+
+@media (min-width: 320px) and (max-width: 999px) {
+   .imgFridus1{
+	height: 20vh;
+	width: 40vh;
+    } 
 }
-.videoyoutube{
+
+    
+    
+    
+
+@media (min-width: 1000px) {
+.videoYoutube{
 	position:absolute;
 	top:280%;
 	right:50%;
 	transform:translate(50%,-50%);
+    
+    
+}
+}
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 999px) {
+   .videoyoutube{
+	display:none;
+       
+      
+  
+} 
 }
