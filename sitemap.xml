@@ -4,10 +4,8 @@
          options: {
            cacheTime: 600000, // default
          },
-       },
+      
 
-- gridsome version: 0.6.3
-- @gridsome/cli version: 0.1.0
  
 - Platform:  Netlify
 <urlset
