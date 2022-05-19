@@ -15,7 +15,7 @@ z-index: 99;
 	align-items:center;
 }
 .load > img {
-	width:100px;
+	width:100vh;
 }
 .loader.hidden{
 	animation: fadeOut 1s;
@@ -38,13 +38,13 @@ body{
 
 }
 .field {
-  margin-bottom: 10px;
+  margin-bottom: 10vh;
   
 }
 
 .field label {
   display: block;
-  font-size: 12px;
+  font-size: 12vh;
   color: #777;
 }
 
@@ -52,17 +52,17 @@ body{
   display: block;
   min-width: 250px;
   line-height: 1.5;
-  font-size: 14px;
+  font-size: 14vh;
  
 }
 
 input[type="submit"] {
     color: white;
-  padding: 15px 30px;
-  margin: 20px auto 0;
+  padding: 1.5vh 3vh;
+  margin: 2vh auto 0;
   display: block;
-  padding: 6px 30px;
-  font-size: 14px;
+  padding: 4vh 6vh;
+  font-size: 2vh;
   background-color: #4460AA;
   
   border: #4460AA;
@@ -76,33 +76,33 @@ input[type="submit"] {
 
 .wrapper {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 15vh;
+  padding-left: 15vh;
   margin-right: auto;
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576vh) {
   .wrapper {
-    max-width: 540px;
+    max-width: 540vh;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768vh) {
   .wrapper {
-    max-width: 720px;
+    max-width: 720vh;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992vh) {
   .wrapper {
-    max-width: 960px;
+    max-width: 960vh;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200vh) {
   .wrapper {
-    max-width: 1140px;
+    max-width: 1140vh;
   }
 }
 
