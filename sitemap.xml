@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+{
+         use: '@gridsome/plugin-sitemap',
+         options: {
+           cacheTime: 600000, // default
+         },
+       },
+
+- gridsome version: 0.6.3
+- @gridsome/cli version: 0.1.0
+ 
+- Platform:  Netlify
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -7,6 +18,7 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
+    
 <url>
   <loc>https://www.weliel.tk/</loc>
   <lastmod> 2022-05-02T12:10:09+00:00</lastmod>
@@ -35,3 +47,4 @@
 
 
 </urlset>
+
