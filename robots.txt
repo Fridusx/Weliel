@@ -40,5 +40,5 @@ Allow:
 Crawl-delay: 5
 Allow: /cgi-bin/
 
-/sitemap.xml
+
 
