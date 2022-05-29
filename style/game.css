@@ -432,21 +432,6 @@ font-size:1.5vh;
 } 
 }
 
-@media (min-width: 1000px) {
-
-.AboutFridusGame {
-
-position:absolute;
-	transform:translate(50%,-50%);
-	font-size:2.5vh;
-color:white;
-	font-family: 'Raleway', sans-serif; 
-
-}
-
-}
-
-@media (min-width: 320px) and (max-width: 999px) {
 .AboutFridusGame {
 
 position:absolute;
@@ -459,5 +444,5 @@ color:white;
 	font-family: 'Raleway', sans-serif; 
 }
 }
-}
+
 
