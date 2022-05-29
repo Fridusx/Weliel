@@ -4,33 +4,32 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://www.weliel.tk/</loc>
-  <lastmod>2022-05-19T11:35:34+00:00</lastmod>
+  <lastmod>29.05.2022</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.weliel.tk/game</loc>
-  <lastmod>2022-05-19T11:35:33+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>29.05.2022</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.weliel.tk/about</loc>
-  <lastmod>2022-05-19T11:35:33+00:00</lastmod>
+  <lastmod>29.05.2022</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.weliel.tk/project</loc>
-  <lastmod>2022-05-19T11:35:34+00:00</lastmod>
+  <lastmod>29.05.2022</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.weliel.tk/contact%20Me</loc>
-  <lastmod>2022-05-19T11:35:33+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>29.05.2022</lastmod>
+  <priority>1.00</priority>
 </url>
 
 
