@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
 .Google_play{
     position:absolute;
     right: 0%;
@@ -627,7 +627,7 @@ input[type="submit"]:hover {
 }
 
 
-@media ( min-width: 1000px) {
+@media ( min-width: 1200px) {
     
     .footer a{
        position: relative;
@@ -681,7 +681,7 @@ height: 12vh;
 
 
 
-@media (min-width: 320px) and (max-width: 999px) {
+@media (min-width: 320px) and (max-width: 1200px) {
     
     
     
@@ -975,5 +975,28 @@ background-position: center;
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
