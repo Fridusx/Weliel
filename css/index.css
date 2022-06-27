@@ -564,7 +564,7 @@ input[type="submit"]:hover {
 
 @media screen and (max-width:767px) {
   h3.global-title {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 45px;
   }
 }
@@ -585,7 +585,13 @@ input[type="submit"]:hover {
 
 /* / title-styling */
 /* simple contact form */
-.contact-form {
+
+
+@media ( min-width: 1200px) {
+    
+    
+    
+    .contact-form {
   background: #f8f9fa;
 }
 
@@ -626,8 +632,25 @@ input[type="submit"]:hover {
   box-shadow: none;
 }
 
-
-@media ( min-width: 1200px) {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     .footer a{
        position: relative;
@@ -894,6 +917,22 @@ background-position: center;
         
     }
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .AboutTxt{
         text-align: center;
         
@@ -942,6 +981,69 @@ background-position: center;
 
     
 }
+    
+    
+    
+    
+    
+    
+    .contact-form {
+  background: #f8f9fa;
+}
+
+.field {
+  margin-bottom: 0.5vh;
+  background: white;
+}
+
+.form-mid {
+ 
+  padding: 0.2rem;
+  border: 0.1vh solid white;
+  border-radius: 0.1vh;
+}
+
+.form-mid form input,
+.form-mid form textarea {
+  background: white;
+  border: 0.1vh solid rgba(216, 216, 216, 0.3);
+  color: #777;
+  font-size: 3vh;
+  padding: 1vh 1vh;
+  min-width:10vh;
+  border-radius:1vh;
+  min-height:10vh;
+   
+}
+       
+    
+
+.form-mid form textarea {
+  resize: none;
+  min-height: 30vh;
+   
+}
+.form-mid form input:focus,
+.form-mid form textarea:focus {
+  outline: none;
+  border: 0.1vh solid #051b35;
+  background: white;
+  box-shadow: none;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
