@@ -287,23 +287,24 @@ font-size:3vh;
 }
 .FridusGameText h1{
 	position:absolute;
-	
-
+	top:210%;
+	right:50%;
 	transform: translate(50%,-50%);
 font-size:4vh;
 font-family: 'Varela Round', sans-serif;
 }
 .FridusGameText p{
 	position:absolute;
-	
-	
+	top:218%;
+	right:50%;
 	transform: translate(50%,-50%);
 font-size:1.5vh;
 	font-family: 'Pacifico', cursive;
 }
 .FridusGameText h2{
 	position:absolute;
-	
+	top:223%;
+	right:50%;
 	transform:translate(50%,-50%);
 	font-size:2vh;
 	font-family: 'Raleway', sans-serif; 
@@ -430,18 +431,3 @@ font-size:1.5vh;
   
 } 
 }
-
-.AboutFridusGame {
-
-position:absolute;
-	transform:translate(50%,-50%);
-	font-size:2.5vh;
-
-.AboutFridusGame h2 {
-
-color:white;
-	font-family: 'Raleway', sans-serif; 
-}
-}
-
-
