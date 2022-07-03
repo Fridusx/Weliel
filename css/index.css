@@ -292,10 +292,14 @@ position:relative;
     font-size:3vh;
     font-weight:bold;
 }
-.image__description{
+.image__description {
+   
     font-size:2vh;
-    margin-top: 0.25em;
+    margin-top: 0.30m;
 }
+    .image__description a{
+          font-size:2vh;
+    }
 
 .GetItNow{
     position: absolute;
@@ -838,12 +842,12 @@ background-position: center;
         
     }
     
-    .flipImage p {
+    .flipImage a {
       
         color:black;
       font-size:6vh;
     }
-    .flipImage1 p {
+    .flipImage1 a {
         color:black;
      font-size:6vh;
     }
