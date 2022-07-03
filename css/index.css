@@ -70,9 +70,9 @@ background-size:cover;
       position:inherit;
   right: 0;
   bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
   
+ min-width: 100%; 
+  min-height: 100%;
   
 }
     section{
@@ -383,8 +383,18 @@ transform: translate(-50%,-50%);
         width:45vh;
         height:62vh;
     }  
-
+    .CreatorName {
+        position: absolute;
+top: 289%;
+left:85%;
+transform: translate(-50%,-50%); 
+    }
     
+    .CreatorName h1{
+        color:white;
+        font-size:5vh;
+      
+    }
    
     
     
@@ -514,74 +524,7 @@ input[type="submit"]:hover {
 
 
 
-.wrapper {
-  width: 100%;
-  padding-right: 15vh;
-  padding-left: 15vh;
-  margin-right: auto;
-  margin-left: auto;
-}
 
-@media (min-width: 576vh) {
-  .wrapper {
-    max-width: 540vh;
-  }
-}
-
-@media (min-width: 768vh) {
-  .wrapper {
-    max-width: 720vh;
-  }
-}
-
-@media (min-width: 992vh) {
-  .wrapper {
-    max-width: 960vh;
-  }
-}
-
-@media (min-width: 1000vh) {
-  .wrapper {
-    max-width: 1140vh;
-  }
-}
-
-
-
-@media screen and (max-width:767px) {
-  .section-gap {
-    padding: 3.5rem 0;
-  }
-}
-
-@media screen and (max-width:480px) {
-  .section-gap {
-    padding: 3rem 0;
-  }
-}
-
-
-
-@media screen and (max-width:767px) {
-  h3.global-title {
-    font-size: 30px;
-    line-height: 45px;
-  }
-}
-
-@media screen and (max-width:600px) {
-  h3.global-title {
-    font-size: 35px;
-    line-height: 40px;
-  }
-}
-
-@media screen and (max-width:500px) {
-  h3.global-title {
-    font-size: 30px;
-    line-height: 35px;
-  }
-}
 
 /* / title-styling */
 /* simple contact form */
@@ -764,8 +707,9 @@ height: 12vh;
     
     section  .ImageForVideo li img{
         
-        height: 8vh;
-        width:14vh;
+        max-width: 14vh;
+        height: auto;
+        
         transition:0.5s;
     }
     
@@ -799,6 +743,7 @@ height: 12vh;
   text-decoration: none;
   font-size:5vh;
   display: block;
+    
 }
 
 .topnav a.icon {
@@ -809,18 +754,30 @@ height: 12vh;
   top: 0;
 }
     .topnav a img{
-        width:10vh;
-        height:10vh;
+       
+        max-width: 15vh;
+        height: auto;
     }
     #WGames{
-       width:20vh;
-        height:15vh;  
+        max-width: 100%;
+        height: auto;
+       
     }
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-
+    .Mailtopnav{
+       text-align: center; 
+       
+    }
+    .Mailtopnav a {
+        color:white;
+        font-size:15vh;
+    }
+    
+    
+    
 .active {
   background-image: url(../image/Weliel_Games_Google_play.webp);
     background-size:cover;
@@ -837,17 +794,12 @@ background-position: center;
  background-size: cover;
         background-position:center;
     }  
-    .flipImage{
-         float: left;
-  width:65.33%;
-  padding: 0px;
-       
-     
-    }
+    
+    
     
     .image__img{
-        width: 40vh;
-        height: 20vh;
+        max-width: 100%;
+        height: auto;
     }
      
     .MobilefliImage::after{
@@ -856,24 +808,25 @@ background-position: center;
   display: table;  
     }
     .image_title{
-        
-          padding: 2vh;
+        text-align: center;
+          padding:2vh;
         color:Black;
-        font-size:4vh;
+        font-size:10vh;
         text-shadow: 2px 2px 1px;
     }
     .image_title2{
-        
-          padding: 2vh;
+        text-align: center;
+          padding:2vh;
         color:Black;
-        font-size:3vh;
+        font-size:10vh;
         text-shadow: 2px 2px 1px;
     }
     
     .block__image__description1{
-         padding: 3vh;
-       border: 4px solid ; 
-        border-color: rgba(245	245	220/ 10%);
+       
+       padding: 3vh;
+        border:2px solid;
+          border-color: rgba(245	245	220/ 10%);
     background-color: rgba(245	245	220/ 80%);
    
     }
@@ -888,11 +841,11 @@ background-position: center;
     .flipImage p {
       
         color:black;
-      font-size:2vh;
+      font-size:6vh;
     }
     .flipImage1 p {
         color:black;
-     font-size:2vh;
+     font-size:6vh;
     }
     
     .GetItNow{
@@ -954,8 +907,11 @@ background-position: center;
   
 
     .Img_AboutWeliel img{
-        width: 35vh;
-        height: 45vh;
+       max-width: 100%;
+        height: auto;
+    }
+    .CreatorName h1{
+        color:white;
     }
     
     .MapAndProfile{
@@ -1010,17 +966,19 @@ background-position: center;
   color: #777;
   font-size: 3vh;
   padding: 1vh 1vh;
-  min-width:10vh;
+  min-width:30%;
   border-radius:1vh;
-  min-height:10vh;
+  min-height:auto;
    
 }
        
-    
+   
 
 .form-mid form textarea {
-  resize: none;
+  
+    resize: none;
   min-height: 30vh;
+   
    
 }
 .form-mid form input:focus,
@@ -1059,12 +1017,13 @@ background-position: center;
      text-align:right;
     }
     .Soc2 img{
-        width: 10vh;
-        height: 10vh;
+          max-width: 10vh;
+        height: auto;
+        
     }
     #footerWelielGames{
-        width:10vh;
-        height:8vh;
+       max-width: 15vh;
+        height: auto;
     }
     
     .TextFooter{
