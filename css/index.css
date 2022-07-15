@@ -425,6 +425,19 @@ background-position: center;
 
     
 }
+   
+    .imageSlider{
+        text-align: center;
+        
+    }  
+    .imageSlider img{
+        width:65vh;
+        height: 35vh;
+    }
+    .buttonNextPrev{
+        text-align: center;
+    }
+    
     
     
 }
@@ -650,11 +663,25 @@ height: 12vh;
 
 
 
+@media screen and (orientation:landscape)
+and (min-device-width: 319px) 
+and (max-device-width: 480px) 
+{
+   section  .ImageForVideo li img{
+        
+     
+           max-width:100%;
 
+        display: block;
+        transition:0.5s;
+    }  
+}
 @media (min-width: 320px) and (max-width: 1200px) {
     
     
-    
+    .slideshow-container{
+        display: none;
+    }
     .Google_play{
      display: none;
    
@@ -676,9 +703,10 @@ height: 12vh;
     }
     
       section{
+           max-width: 100%;
+  display: block;
         position:inherit;
-        width: 100%;
-        height: auto;
+       
     }
     
  section  .ImageForVideo{
@@ -711,9 +739,10 @@ height: 12vh;
     
     section  .ImageForVideo li img{
         
-        max-width: 14vh;
-        height: auto;
-        
+     
+           max-width:15vh;
+
+        display: block;
         transition:0.5s;
     }
     
@@ -802,8 +831,8 @@ background-position: center;
     
     
     .image__img{
-        max-width: 100%;
-        height: auto;
+         max-width: 100%;
+  display: block;
     }
      
     .MobilefliImage::after{
@@ -911,8 +940,9 @@ background-position: center;
   
 
     .Img_AboutWeliel img{
-       max-width: 100%;
-        height: auto;
+     
+         max-width: 100%;
+  display: block;
     }
     .CreatorName h1{
         color:white;
@@ -923,12 +953,12 @@ background-position: center;
         
     }
     
-    .MapAndProfile  iframe{
-       width: 45vh;
-        height: 45vh;  
+    .iframeMap{
+        text-align: center;
     }
-    
-    
+    .iframeMap iframe{
+       display: none;
+    }
     
     
     .Contact{
@@ -1022,7 +1052,9 @@ background-position: center;
     }
     .Soc2 img{
           max-width: 10vh;
-        height: auto;
+       height: auto;
+         
+        
         
     }
     #footerWelielGames{
