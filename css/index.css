@@ -874,12 +874,8 @@ and (max-device-width: 480px)
     }
     
      #WelecomePageVideo{
-      position:relative;
-  display: block;
-  right: 0;
-  top: 0;
-       width: 100%;
-        height: auto;
+      
+          display:none;
     }
     section  .ImageForVideo{
         display:none;
