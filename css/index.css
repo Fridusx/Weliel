@@ -4,7 +4,33 @@
      
     box-sizing: border-box;
 }
-
+.loader{
+ position:fixed;
+z-index: 99;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.load > img {
+	width:100px;
+}
+.loader.hidden{
+	animation: fadeOut 1s;
+	animation-fill-mode:forwards;
+}
+@keyframes fadeOut {
+	
+	100%{
+		opacity:0;
+		visibility:hidden;
+	}
+	
+}
 @media (min-width: 1200px) {
 .Google_play{
     position:absolute;
@@ -120,7 +146,18 @@ background-size:cover;
     section  .ImageForVideo li img:hover{
         width:40vh; 
     }
-    
+    .W404{
+        top:20%;
+        left:25%;
+      position: absolute;
+      
+    }
+   
+    .W404 h1{
+        font-family: 'Mochiy Pop One', sans-serif;
+        color:yellowgreen;
+   font-size: 40vh;
+    }
     
 
     
@@ -149,12 +186,20 @@ position:absolute;
   
    
 }
-
+#logoWeliel:hover {
+  width: 11vh;
+    height: 11vh;
+position:absolute;
+ 
+    top:0%;
+  
+   
+}
 
 .home_navigatorWGames{
     position:absolute;
   top:0%;
-    right: 15%;
+    right: 25%;
 }
 .home_navigatorWGames li{
     display: inline-block;
@@ -170,7 +215,27 @@ font-size: 20vh;
     width: 20vh;
     height: 10vh;
 }
-
+    .home_navigatorWGames li a img:hover{
+    width: 22vh;
+    height: 12vh;
+}
+    .home_navigatorWOld{
+      position:absolute;
+    right: 10%;
+      top:1.5%;   
+    }
+    .home_navigatorWOld a{
+        font-family: 'Berkshire Swash', cursive;
+      text-decoration: none;
+font-size: 5vh;
+   color:white;  
+    }
+    .home_navigatorWOld a:hover{
+     font-size: 6vh;   
+    }
+    .home_navigatorWOld li{
+      display: inline-block;
+}
 .home_navigatorWContact{
        position:absolute;
     right: 5%;
@@ -180,11 +245,15 @@ font-size: 20vh;
       display: inline-block;
 }
 .home_navigatorWContact li a{
+    font-family: 'Berkshire Swash', cursive;
    text-decoration: none;
 font-size: 5vh;
    color:white;
 
 }
+    .home_navigatorWContact li a:hover{
+        font-size:6vh;
+    }
 
 
 .clock{
@@ -256,14 +325,18 @@ position:relative;
     width:100%;
     height:100%;
     background:rgba(0, 0, 0, 0.6);
-    color:white;
-    display:flex;
+     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color:white;
+    text-align: center;
     opacity:0;
     transition:opacity 0.25s;
 }
+    .image__overlay a{
+        color:white;
+    }   
 .image__overlay--blur{
  backdrop-filter: blur(6px);
 }
@@ -285,22 +358,29 @@ position:relative;
 
 
 .image_title{
+     
     font-size:3vh;
     font-weight:bold;
 }
 .image_title2{
+   
     font-size:3vh;
     font-weight:bold;
 }
 .image__description {
-   
+    
     font-size:2vh;
     margin-top: 0.30m;
 }
     .image__description a{
+        
           font-size:2vh;
     }
 
+ 
+    
+    
+    
 .GetItNow{
     position: absolute;
 top: 162.5%;
@@ -309,6 +389,7 @@ transform: translate(-50%,-50%);
     
 }
 .GetItNow a {
+    font-family: 'Rampart One', cursive;
     text-decoration: none;
     color:white;
     font-size:8vh;
@@ -318,6 +399,7 @@ transform: translate(-50%,-50%);
 }
    
    .GetItNow a:hover {
+       font-family: 'Rampart One', cursive;
     text-decoration: none;
     color:white;
     font-size:10vh;
@@ -350,7 +432,7 @@ background-position: center;
 
     .AboutWeliel h1{
        
-
+font-family: 'Hammersmith One', sans-serif;
 transform: translate(-50%,-50%);
          text-align:center;
         color:white;
@@ -359,7 +441,7 @@ transform: translate(-50%,-50%);
     
     .AboutWeliel h3{
        
-
+font-family: 'Hammersmith One', sans-serif;
 transform: translate(-50%,-50%);
          color:white;
         font-size:3vh;  
@@ -395,6 +477,7 @@ transform: translate(-50%,-50%);
     }
     
     .CreatorName h1{
+        font-family: 'Dancing Script', cursive;
         color:white;
         font-size:5vh;
       
@@ -448,47 +531,6 @@ background-position: center;
 
 
 
-.loader{
- position:fixed;
-z-index: 99;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:white;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
-.load > img {
-	width:100px;
-}
-.loader.hidden{
-	animation: fadeOut 1s;
-	animation-fill-mode:forwards;
-}
-@keyframes fadeOut {
-	
-	100%{
-		opacity:0;
-		visibility:hidden;
-	}
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -515,11 +557,138 @@ z-index: 99;
 input[type="submit"] {
     color: white;
   padding: 1.5vh 3vh;
-  margin: 1.5vh auto 0;
+  margin: 2vh auto 0;
   display: block;
   padding: 4vh 6vh;
-  font-size: 1.5vh;
+  font-size: 2vh;
   background-color: #4460AA;
+  
+  border: #4460AA;
+
+ 
+  
+  
+  
+
+}
+
+.wrapper {
+  width: 100%;
+  padding-right: 15vh;
+  padding-left: 15vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576vh) {
+  .wrapper {
+    max-width: 540vh;
+  }
+}
+
+@media (min-width: 768vh) {
+  .wrapper {
+    max-width: 720vh;
+  }
+}
+
+@media (min-width: 992vh) {
+  .wrapper {
+    max-width: 960vh;
+  }
+}
+
+@media (min-width: 1200vh) {
+  .wrapper {
+    max-width: 1140vh;
+  }
+}
+
+
+
+@media screen and (max-width:767px) {
+  .section-gap {
+    padding: 3.5rem 0;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .section-gap {
+    padding: 3rem 0;
+  }
+}
+
+
+
+@media screen and (max-width:767px) {
+  h3.global-title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  h3.global-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  h3.global-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+
+
+
+
+
+
+
+
+.contact-form {
+  background: #f8f9fa;
+}
+
+.field {
+  margin-bottom: 20px;
+  background: white;
+}
+
+.form-mid {
+ 
+  padding: 3rem;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.form-mid form input,
+.form-mid form textarea {
+  background: white;
+  border: 2px solid rgba(216, 216, 216, 0.3);
+  color: #777;
+  font-size: 16px;
+  padding: 12px 15px;
+  width: 100%;
+  border-radius: 4px;
+  height: 55px;
+}
+
+.form-mid form textarea {
+  resize: none;
+  min-height: 140px;
+}
+
+.form-mid form input:focus,
+.form-mid form textarea:focus {
+  outline: none;
+  border: 2px solid #051b35;
+  background: white;
+  box-shadow: none;
+}
   
 
 
@@ -691,9 +860,20 @@ and (max-device-width: 480px)
         display: none;
     }
     
+   .W404{
+     top:0%;
+       left:30%;
+      position: absolute;
+      
+    }
    
+    .W404 h1{
+        font-family: 'Mochiy Pop One', sans-serif;
+        color:yellowgreen;
+   font-size: 10vh;
+    }
     
-    #WelecomePageVideo{
+     #WelecomePageVideo{
       position:relative;
   display: block;
   right: 0;
@@ -701,53 +881,9 @@ and (max-device-width: 480px)
        width: 100%;
         height: auto;
     }
-    
-      section{
-           max-width: 100%;
-  display: block;
-        position:inherit;
-       
+    section  .ImageForVideo{
+        display:none;
     }
-    
- section  .ImageForVideo{
-        
-     position:fixed;
-     bottom:40px;
-     left:50%;
-     transform:translateX(-50%);
-     z-index:100;
-     display:flex;
-     justify-content: center;
-     align-items: center;
-     
-     
-    }  
-    
-    
-    
-    section  .ImageForVideo li{
-        
-       list-style: none;
-        cursor: pointer;
-        margin: 0 10px;
-        border-radius: 4px;
-        background: #fff;
-        padding: 3px 3px 0;
-        opacity:0.7;
-        
-    }
-    
-    section  .ImageForVideo li img{
-        
-     
-           max-width:15vh;
-
-        display: block;
-        transition:0.5s;
-    }
-    
-    
-    
     
    
     
@@ -800,11 +936,21 @@ and (max-device-width: 480px)
   background-color: #ddd;
   color: black;
 }
+    .Oldtopnav{
+        text-align: center;
+    }
+    .Oldtopnav a{
+        font-family: 'Berkshire Swash', cursive;
+        color:white;
+        font-size:15vh;
+    }
     .Mailtopnav{
        text-align: center; 
        
     }
+    
     .Mailtopnav a {
+        font-family: 'Berkshire Swash', cursive;
         color:white;
         font-size:15vh;
     }
@@ -872,11 +1018,14 @@ background-position: center;
     }
     
     .flipImage a {
-      
+      font-family: 'Amatic SC', cursive;
         color:black;
       font-size:6vh;
     }
+    
+    
     .flipImage1 a {
+        font-family: 'Amatic SC', cursive;
         color:black;
      font-size:6vh;
     }
@@ -888,14 +1037,14 @@ background-position: center;
         background-color: black; 
     }
     .GetItNow a{
-      
+      font-family: 'Rampart One', cursive;
     font-size:5vh;
         padding: 2vh;
         text-decoration: none;
         color:white;
         font-weight: bold;
     }
-    
+   
     .AboutWeliel{
      background-image: url(../image/Latvia_Riga.webp);
         background-size: cover;
@@ -920,17 +1069,20 @@ background-position: center;
     
     
     .AboutTxt{
+        font-family: 'Hammersmith One', sans-serif;
         text-align: center;
         
     }
     
     .AboutTxt h1{
+        font-family: 'Hammersmith One', sans-serif;
         color:white;
         font-size:8vh;
           font-weight:bold;
         
     }
     .AboutTxt h3{
+        font-family: 'Hammersmith One', sans-serif;
         color:black;
         font-size:4vh;
     }
@@ -945,6 +1097,7 @@ background-position: center;
   display: block;
     }
     .CreatorName h1{
+        font-family: 'Dancing Script', cursive;
         color:white;
     }
     
