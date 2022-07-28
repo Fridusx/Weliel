@@ -6,10 +6,10 @@
 }
 .loader{
  position:fixed;
-z-index: 99;
+z-index:99;
 	top:0;
 	left:0;
-	width:100%;
+	max-width:100%;
 	height:100%;
 	background:white;
 	display:flex;
@@ -66,8 +66,8 @@ background-size:cover;
     .box2{
         position:fixed;
    
- top: 110%;
-  right: 0%;  
+ top:110%;
+  right:0%;  
     
        border: 4px solid ; 
         border-color: beige;
@@ -81,10 +81,11 @@ background-size:cover;
 .box{
     position:absolute;
    
- top: 0%;
-  right: 0%;  
+ top:0%;
+  right:0%;  
     
-      width: 100%; height: 11.5%;
+      width:100%;
+    height:11.5%;
     border-style: solid;
     border-color: rgba(0,0,0,.5);
     background-color: rgba(0,0,0,.5);
@@ -95,17 +96,17 @@ background-size:cover;
 #WelecomePageVideo{
     
       position:inherit;
-  right: 0;
-  bottom: 0;
+  right:0;
+  bottom:0;
   
- min-width: 100%; 
-  min-height: 100%;
+ min-width:100%; 
+  min-height:100%;
   
 }
     section{
         position:inherit;
-        width: 100%;
-        height: 100vh;
+        width:100%;
+        height:100vh;
     }
     
  section  .ImageForVideo{
@@ -200,7 +201,7 @@ position:absolute;
 .home_navigatorWGames{
     position:absolute;
   top:0%;
-    right: 25%;
+    right:25%;
 }
 .home_navigatorWGames li{
     display: inline-block;
@@ -208,38 +209,38 @@ position:absolute;
 
 .home_navigatorWGames li a{
    text-decoration: none;
-font-size: 20vh;
+font-size:20vh;
    color:black;
 
 }
 .home_navigatorWGames li a img{
-    width: 20vh;
-    height: 10vh;
+    width:20vh;
+    height:10vh;
 }
     .home_navigatorWGames li a img:hover{
-    width: 22vh;
-    height: 12vh;
+    width:22vh;
+    height:12vh;
 }
     .home_navigatorWOld{
       position:absolute;
-    right: 10%;
+    right:10%;
       top:1.5%;   
     }
     .home_navigatorWOld a{
         font-family: 'Berkshire Swash', cursive;
       text-decoration: none;
-font-size: 5vh;
+font-size:5vh;
    color:white;  
     }
     .home_navigatorWOld a:hover{
-     font-size: 6vh;   
+     font-size:6vh;   
     }
     .home_navigatorWOld li{
       display: inline-block;
 }
 .home_navigatorWContact{
        position:absolute;
-    right: 5%;
+    right:5%;
       top:1.5%;
 }
 .home_navigatorWContact li{
@@ -248,7 +249,7 @@ font-size: 5vh;
 .home_navigatorWContact li a{
     font-family: 'Berkshire Swash', cursive;
    text-decoration: none;
-font-size: 5vh;
+font-size:5vh;
    color:white;
 
 }
@@ -451,7 +452,7 @@ transform: translate(-50%,-50%);
     
     .AboutTxt{
          position: absolute;
-top: 215%;
+top:215%;
        left:30%;
    border: 4px solid rgba(0, 0, 0, 0.0);
        
@@ -461,18 +462,18 @@ top: 215%;
     }
    .Img_AboutWeliel {
         position: absolute;
-top: 250%;
+top:250%;
 left:80%;
 transform: translate(-50%,-50%); 
 
     } 
     .Img_AboutWeliel img{
-           max-width: 100%;
+           max-width:100%;
     display: block;
     }  
     .CreatorName {
         position: absolute;
-top: 289%;
+top:289%;
 left:85%;
 transform: translate(-50%,-50%); 
     }
@@ -489,7 +490,7 @@ transform: translate(-50%,-50%);
     
     #mapGoogle{
      position:absolute;
-       top: 270%;
+       top:270%;
 left:30%;
 transform: translate(-50%,-50%); 
         width:80vh;
@@ -502,7 +503,7 @@ transform: translate(-50%,-50%);
     .Contact{
     background-position: top;
    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/Fridusgame2.webp);
-height: 100vh;
+height:100vh;
 background-size:cover;
 background-position: center;
 
@@ -516,7 +517,7 @@ background-position: center;
     }  
     .imageSlider img{
         width:65vh;
-        height: 35vh;
+        height:35vh;
     }
     .buttonNextPrev{
         text-align: center;
@@ -549,9 +550,9 @@ background-position: center;
 
 .field input {
   display: block;
-  min-width: 250px;
-  line-height: 1.5;
-  font-size: 14vh;
+  min-width:250px;
+  line-height:1.5;
+  font-size:14vh;
  
 }
 
@@ -751,7 +752,7 @@ input[type="submit"]:hover {
 
 .form-mid form textarea {
   resize: none;
-  min-height: 140px;
+  min-height:140px;
 }
 
 .form-mid form input:focus,
@@ -797,31 +798,31 @@ input[type="submit"]:hover {
     }
     .Soc{
         position: absolute;
-  top: 385.5%;
-  right: 0;
+  top:385.5%;
+  right:0;
         
     }
     .Soc a{
-       padding: 20px;
+       padding:20px;
         
     }
     .Soc a img:hover{
-        width: 12vh;
-        height: 12vh;
+        width:12vh;
+        height:12vh;
     }
    
      .Soc a img{
-        width: 10vh;
-        height: 10vh;
+        width:10vh;
+        height:10vh;
     }
     #footerWelielGames{
      
-  width: 15vh;
-height: 10vh;
+  width:15vh;
+height:10vh;
     }
     #footerWelielGames:hover{
-        width: 18vh;
-height: 12vh; 
+        width:18vh;
+height:12vh; 
     }
     
     .topnav{
@@ -869,7 +870,7 @@ and (max-device-width: 480px)
     .W404 h1{
         font-family: 'Mochiy Pop One', sans-serif;
         color:yellowgreen;
-   font-size: 10vh;
+   font-size:10vh;
     }
     
      #WelecomePageVideo{
@@ -903,7 +904,7 @@ and (max-device-width: 480px)
 
 .topnav a {
   color: white;
-  padding: 1vh 2vh;
+  padding:1vh 2vh;
   text-decoration: none;
   font-size:5vh;
   display: block;
@@ -914,12 +915,12 @@ and (max-device-width: 480px)
   background: rgba(0, 0, 0, 0.5);
   display: block;
   position: absolute;
-  right: 0;
-  top: 0;
+  right:0;
+  top:0;
 }
     .topnav a img{
        
-        max-width: 15vh;
+        max-width:15vh;
         height: auto;
     }
     #WGames{
@@ -1118,7 +1119,7 @@ background-position: center;
     .Contact{
     background-position: top;
    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/Fridusgame2.webp);
-height: 150vh;
+height:150vh;
 background-size:cover;
 background-position: center;
 
@@ -1165,7 +1166,7 @@ background-position: center;
 .form-mid form textarea {
   
     resize: none;
-  min-height: 30vh;
+  min-height:30vh;
    
    
 }
@@ -1205,14 +1206,14 @@ background-position: center;
      text-align:right;
     }
     .Soc2 img{
-          max-width: 10vh;
+          max-width:10vh;
        height: auto;
          
         
         
     }
     #footerWelielGames{
-       max-width: 15vh;
+       max-width:15vh;
         height: auto;
     }
     
@@ -1251,7 +1252,7 @@ background-position: center;
     .W404 h1{
         font-family: 'Mochiy Pop One', sans-serif;
         color:yellowgreen;
-   font-size: 10vh;
+   font-size:10vh;
     }
     
      #WelecomePageVideo{
@@ -1296,17 +1297,17 @@ background-position: center;
   background: rgba(0, 0, 0, 0.5);
   display: block;
   position: absolute;
-  right: 0;
-  top: 0;
+  right:0;
+  top:0;
 }
     .topnav a img{
        
-        max-width: 15vh;
-        height: auto;
+        max-width:15vh;
+        height:auto;
     }
     #WGames{
         max-width:100%;
-        height: auto;
+        height:auto;
        
     }
 .topnav a:hover {
@@ -1380,7 +1381,7 @@ background-position: center;
     
     .block__image__description1{
        
-       padding: 3vh;
+       padding:3vh;
         border:2px solid;
           border-color: rgba(245	245	220/ 10%);
     background-color: rgba(245	245	220/ 80%);
@@ -1447,7 +1448,7 @@ background-position: center;
     
     .AboutTxt{
         font-family: 'Hammersmith One', sans-serif;
-        text-align: center;
+        text-align:center;
         
     }
     
@@ -1466,7 +1467,7 @@ background-position: center;
     
     
     .Img_AboutWeliel{
-        text-align: center;
+        text-align:center;
     }
   
 
@@ -1496,7 +1497,7 @@ background-position: center;
     .Contact{
     background-position: top;
    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/Fridusgame2.webp);
-height: 150vh;
+height:150vh;
 background-size:cover;
 background-position: center;
 
@@ -1543,7 +1544,7 @@ background-position: center;
 .form-mid form textarea {
   
     resize: none;
-  min-height: 30vh;
+  min-height:30vh;
    
    
 }
@@ -1583,14 +1584,14 @@ background-position: center;
      text-align:right;
     }
     .Soc2 img{
-          max-width: 10vh;
+          max-width:10vh;
        height: auto;
          
         
         
     }
     #footerWelielGames{
-       max-width: 15vh;
+       max-width:15vh;
         height: auto;
     }
     
