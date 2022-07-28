@@ -817,12 +817,12 @@ input[type="submit"]:hover {
     }
     #footerWelielGames{
      
-  width:15vh;
-height:10vh;
+   width:15vh;
+        height:10vh;
     }
     #footerWelielGames:hover{
-        width:18vh;
-height:12vh; 
+         width:16vh;
+        height:11vh;
     }
     
     .topnav{
@@ -920,8 +920,8 @@ and (max-device-width: 480px)
 }
     .topnav a img{
        
-        max-width:15vh;
-        height: auto;
+        width:15vh;
+        height:14vh;
     }
     #WGames{
         max-width:100%;
@@ -1095,7 +1095,8 @@ background-position: center;
 
     #CreatorArsenijs img{
      
-         width:60%;
+        width: 960px;
+        height:1280px;
  
     }
     .CreatorName h1{
@@ -1351,14 +1352,24 @@ background-position: center;
  background-size: cover;
         background-position:center;
     }  
-    
-    
-    
-    .image__img{
-         max-width:100%;
-  display: block;
+    .Fridus{
+        text-align: center;
     }
-     
+    .Fridus img {
+      
+        width: 40vh;
+        height: 20vh;
+    }
+    
+    .Beast{
+      text-align: center;  
+    }
+    .Beast img{
+       width: 40vh;
+        height: 20vh; 
+    }
+    
+    
     .MobilefliImage::after{
        content: "";
   clear: both;
