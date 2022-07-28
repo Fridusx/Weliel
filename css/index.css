@@ -1466,14 +1466,12 @@ background-position: center;
     }
     
     
-    #CreatorArsenijs{
-        text-align:center;
-    }
+   
   
 
-    #CreatorArsenijs img{
+    #CreatorArsenijs{
      
-    width:60%;
+    max-width:60%;
  
     }
     .CreatorName h1{
@@ -1578,6 +1576,7 @@ background-position: center;
         border-color: rgba(104,104,104 , 0.5);
         background-color: rgba(104,104,104, 0.5);
     }
+    
     
     .Soc2{
         
