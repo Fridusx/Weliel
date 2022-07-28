@@ -1559,7 +1559,10 @@ background-position: center;
     
     
     
-    
+    #footerWelielGames{
+     width:144px;
+    height:81px;  
+    }
     
     
     
@@ -1578,21 +1581,7 @@ background-position: center;
     }
     
     
-    .Soc2{
-        
-     text-align:right;
-    }
-    .Soc2 img{
-          max-width:10vh;
-       height: auto;
-         
-        
-        
-    }
-    #footerWelielGames{
-       max-width:15vh;
-        height:auto;
-    }
+   
     
     .TextFooter{
         text-align: center;
@@ -1602,6 +1591,8 @@ background-position: center;
         font-size:3vh;
         color:Black;
     }
+    
+    
     
 }
 
