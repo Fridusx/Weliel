@@ -16,8 +16,15 @@ z-index:99;
 	justify-content:center;
 	align-items:center;
 }
+.loader img{
+    
+width:300px;
+    height: 300px;
+}
+}
 .load > img {
-	width:100px;
+width:300px;
+    height: 300px;
 }
 .loader.hidden{
 	animation: fadeOut 1s;
@@ -920,8 +927,8 @@ and (max-device-width: 480px)
 }
     .topnav a img{
        
-        width:15vh;
-        height:14vh;
+        width:120px;
+        height:120px;
     }
     #WGames{
         max-width:100%;
@@ -950,8 +957,7 @@ and (max-device-width: 480px)
         color:white;
         font-size:15vh;
     }
-    
-    
+   
     
 .active {
   background-image: url(../image/Weliel_Games_Google_play.webp);
@@ -1088,15 +1094,15 @@ background-position: center;
     }
     
     
-     #CreatorArsenijs{
+     .Img_AboutWeliel{
         text-align:center;
     }
   
 
-    #CreatorArsenijs img{
+    .Img_AboutWeliel img{
      
-        width: 960px;
-        height:1280px;
+        width:371px;
+        height:500px;
  
     }
     .CreatorName h1{
@@ -1281,7 +1287,26 @@ background-position: center;
   position: relative;
 }
 
-.topnav #myLinks {
+
+   
+    
+    
+.active {
+  background-image: url(../image/Weliel_Games_Google_play.webp);
+    background-size:cover;
+background-position: center;
+
+  color: white;
+}
+    
+    
+    
+    
+    .info{
+        background-image: url(../image/Weliel_Games_Google_play.webp);
+ background-size: cover;
+        background-position:center;
+    }  .topnav #myLinks {
   display: none;
 }
 
@@ -1303,8 +1328,8 @@ background-position: center;
 }
     .topnav a img{
        
-        max-width:15vh;
-        height:auto;
+      width:120px;
+        height:120px;  
     }
     #WGames{
         max-width:100%;
@@ -1333,25 +1358,6 @@ background-position: center;
         color:white;
         font-size:15vh;
     }
-    
-    
-    
-.active {
-  background-image: url(../image/Weliel_Games_Google_play.webp);
-    background-size:cover;
-background-position: center;
-
-  color: white;
-}
-    
-    
-    
-    
-    .info{
-        background-image: url(../image/Weliel_Games_Google_play.webp);
- background-size: cover;
-        background-position:center;
-    }  
     .Fridus{
         text-align: center;
     }
@@ -1480,9 +1486,15 @@ background-position: center;
    
   
 
-    #CreatorArsenijs{
+     .Img_AboutWeliel{
+        text-align:center;
+    }
+  
+
+    .Img_AboutWeliel img{
      
-    max-width:60%;
+        width:300px;
+        height:400px;
  
     }
     .CreatorName h1{
