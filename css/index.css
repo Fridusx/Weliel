@@ -39,7 +39,7 @@ width:300px;
 	
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1900px) {
 .Google_play{
     position:absolute;
     right: 0%;
@@ -69,7 +69,7 @@ background-size:cover;
     }
 
 }
-    @media (min-width:1800px) {
+    @media (min-width:1900px) {
     .box2{
         position:fixed;
    
@@ -84,7 +84,7 @@ background-size:cover;
     }
 
 }
-@media (min-width: 1800px) {
+@media (min-width: 1900px) {
 .box{
     position:absolute;
    
@@ -302,20 +302,16 @@ position:absolute;
 
 .image{
      position:relative;      
-    width:60vh;
+  width:58vh;
+    height:auto;
+    
     
 }
 
 .image2{
 position:relative; 
-    width:60vh;
-  
-    
-     
-}
-.image3{
-position:relative; 
-    width:60vh;
+   width:58vh;
+    height:auto;
   
     
      
@@ -607,7 +603,7 @@ input[type="submit"] {
   }
 }
 
-@media (min-width: 1800vh) {
+@media (min-width: 1900vh) {
   .wrapper {
     max-width: 1140vh;
   }
@@ -725,7 +721,7 @@ input[type="submit"]:hover {
 /* simple contact form */
 
 
-@media ( min-width:1800px) {
+@media ( min-width:1900px) {
     
     
     
@@ -854,7 +850,7 @@ and (max-device-width: 480px)
         transition:0.5s;
     }  
 }
-@media (min-width: 1200px) and (max-width: 1799px) {
+@media (min-width: 1200px) and (max-width: 1899.9px) {
   .slideshow-container{
         display: none;
     }
@@ -926,15 +922,14 @@ and (max-device-width: 480px)
   top:0;
 }
     .topnav a img{
-       
-        width:120px;
+       width:120px;
         height:120px;
+        
     }
-    #WGames{
-        max-width:100%;
-        height: auto;
-       
-    }
+    .WGamesNavigatorM {
+    text-align: center;
+}
+    
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -945,7 +940,7 @@ and (max-device-width: 480px)
     .Oldtopnav a{
         font-family: 'Berkshire Swash', cursive;
         color:white;
-        font-size:15vh;
+        font-size:4vh;
     }
     .Mailtopnav{
        text-align: center; 
@@ -955,7 +950,7 @@ and (max-device-width: 480px)
     .Mailtopnav a {
         font-family: 'Berkshire Swash', cursive;
         color:white;
-        font-size:15vh;
+        font-size:4vh;
     }
    
     
@@ -982,9 +977,13 @@ background-position: center;
         text-align: center;
     }
     
-    .image__img {
-         max-width:40%;
-
+    .Fridus img {
+        width: 100vh;
+        height: 50vh;
+    }   
+    .Beast img {
+          width: 100vh;
+        height: 45vh;
     }
      
     .MobilefliImage::after{
@@ -1220,8 +1219,8 @@ background-position: center;
         
     }
     #footerWelielGames{
-       max-width:15vh;
-        height: auto;
+       width:100px;
+        height: 100px;
     }
     
     .TextFooter{
@@ -1317,6 +1316,7 @@ background-position: center;
   font-size:5vh;
   display: block;
     
+    
 }
 
 .topnav a.icon {
@@ -1331,10 +1331,13 @@ background-position: center;
       width:120px;
         height:120px;  
     }
-    #WGames{
-        max-width:100%;
-        height:auto;
+   .WGamesNavigatorM{
+      text-align:center;
        
+    }
+    .WGamesNavigatorM img {
+        width:360px;
+        height:640px; 
     }
 .topnav a:hover {
   background-color: #ddd;
@@ -1346,7 +1349,7 @@ background-position: center;
     .Oldtopnav a{
         font-family: 'Berkshire Swash', cursive;
         color:white;
-        font-size:15vh;
+        font-size:10vh;
     }
     .Mailtopnav{
        text-align: center; 
@@ -1356,7 +1359,7 @@ background-position: center;
     .Mailtopnav a {
         font-family: 'Berkshire Swash', cursive;
         color:white;
-        font-size:15vh;
+        font-size:10vh;
     }
     .Fridus{
         text-align: center;
