@@ -1364,12 +1364,18 @@ background-position: center;
     .Fridus{
         text-align: center;
     }
-    
+    .Fridus img{
+       width: 294px;
+        height: 171px;
+    }
     
     .Beast{
       text-align: center;  
     }
-    
+    .Beast img{
+      width: 320px;
+        height: 180px;  
+    }
     
     
     .MobilefliImage::after{
@@ -1590,8 +1596,15 @@ background-position: center;
     height:90px; 
     }
     
-  
+  .Instagramfooter img{
+        width:90px;
+    height:90px; 
+    }
     
+    .Telegramfooter img{
+        width:90px;
+    height:90px; 
+    }
     
     
     
