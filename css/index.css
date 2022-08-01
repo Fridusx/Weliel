@@ -1366,16 +1366,16 @@ background-position: center;
     }
     .Fridus img {
       
-        width: 40vh;
-        height: 20vh;
+        width: 320px;
+        height: 180px;
     }
     
     .Beast{
       text-align: center;  
     }
     .Beast img{
-       width: 40vh;
-        height: 20vh; 
+       width: 320px;
+        height: 180px; 
     }
     
     
@@ -1496,8 +1496,8 @@ background-position: center;
 
     .Img_AboutWeliel img{
      
-        width:300px;
-        height:400px;
+        width:200px;
+        height:250px;
  
     }
     .CreatorName h1{
