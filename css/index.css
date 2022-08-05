@@ -1207,20 +1207,34 @@ background-position: center;
         background-color: rgba(104,104,104, 0.5);
     }
     
-    .Soc2{
+    .Soc2 {
         
      text-align:right;
+       
     }
     .Soc2 img{
-          max-width:10vh;
-       height: auto;
-         
-        
-        
+         padding:10px;
     }
-    #footerWelielGames{
-       width:100px;
-        height: 100px;
+    
+   .WelielGamesfooter img{
+       width:144px;
+    height:81px; 
+    
+    }
+    
+    .Welielfooter img{
+        width:90px;
+    height:90px; 
+    }
+    
+  .Instagramfooter img{
+        width:90px;
+    height:90px; 
+    }
+    
+    .Telegramfooter img{
+        width:90px;
+    height:90px; 
     }
     
     .TextFooter{
@@ -1311,10 +1325,11 @@ background-position: center;
 
 .topnav a {
   color: white;
-  padding: 1vh 2vh;
+  padding: 5vh;
   text-decoration: none;
   font-size:5vh;
   display: block;
+    
     
     
 }
@@ -1327,7 +1342,7 @@ background-position: center;
   top:0;
 }
     .topnav a img{
-       
+      
       width: 50px;
         height: 50px;
     }
@@ -1581,9 +1596,7 @@ background-position: center;
     
     
     
-    .footer{
-        text-align: center;
-    }
+    
     
     
     .WelielGamesfooter img{
@@ -1616,9 +1629,12 @@ background-position: center;
         border: 2px solid;
         border-color: rgba(104,104,104 , 0.5);
         background-color: rgba(104,104,104, 0.5);
+    text-align: center;
     }
     
-    
+    .footer img{
+        padding:2vh;
+    }
    
     
     .TextFooter{
