@@ -1376,6 +1376,9 @@ background-position: center;
         color:white;
         font-size:10vh;
     }
+    
+    
+    
     .Fridus{
         text-align: center;
     }
@@ -1388,16 +1391,12 @@ background-position: center;
       text-align: center;  
     }
     .Beast img{
-      width: 320px;
-        height: 180px;  
+      width:320px;
+        height:180px;  
     }
     
     
-    .MobilefliImage::after{
-       content: "";
-  clear: both;
-  display: table;  
-    }
+    
     .image_title{
         text-align: center;
           padding:2vh;
