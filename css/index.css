@@ -1377,20 +1377,28 @@ background-position: center;
         font-size:10vh;
     }
     
-    
+    .MobilefliImage{
+        padding:2vh;
+    }
     
     .Fridus{
-        text-align: center;
+            text-align: center;
+        padding:3vh;
+        
     }
     .Fridus img{
+        
        width: 294px;
         height: 171px;
     }
     
     .Beast{
-      text-align: center;  
+        text-align: center;
+       padding:1vh;
+     
     }
     .Beast img{
+        
       width:320px;
         height:180px;  
     }
@@ -1405,6 +1413,7 @@ background-position: center;
         text-shadow: 2px 2px 1px;
     }
     .image_title2{
+         
         text-align: center;
           padding:2vh;
         color:Black;
@@ -1429,6 +1438,7 @@ background-position: center;
     }
     
     .flipImage a {
+       
       font-family: 'Amatic SC', cursive;
         color:black;
       font-size:6vh;
@@ -1436,12 +1446,14 @@ background-position: center;
     
     
     .flipImage1 a {
+      
         font-family: 'Amatic SC', cursive;
         color:black;
      font-size:6vh;
     }
     
     .GetItNow{
+        padding:3vh;
          text-align: center;
         border: 4px solid;
         border-color: black;
@@ -1480,15 +1492,17 @@ background-position: center;
     
     
     .AboutTxt{
+        padding:1vh;
         font-family: 'Hammersmith One', sans-serif;
         text-align:center;
         
     }
     
     .AboutTxt h1{
+        padding:2vh;
         font-family: 'Hammersmith One', sans-serif;
         color:white;
-        font-size:8vh;
+        font-size:5vh;
           font-weight:bold;
         
     }
@@ -1596,17 +1610,12 @@ background-position: center;
     
     
     
-    
-    
-    .WelielGamesfooter img{
-       width:144px;
-    height:81px;   
-    }
-    
-    .Welielfooter img{
+ .Welielfooter img{
         width:90px;
     height:90px; 
     }
+    
+    
     
   .Instagramfooter img{
         width:90px;
@@ -1617,6 +1626,10 @@ background-position: center;
         width:90px;
     height:90px; 
     }
+    .WelielGamesfooter img{
+       width:144px;
+    height:81px;   
+    }
     
     
     
@@ -1625,10 +1638,11 @@ background-position: center;
     
     
     .footer{
-        border: 2px solid;
+        padding:2vh;
+      border: 2px solid;
         border-color: rgba(104,104,104 , 0.5);
         background-color: rgba(104,104,104, 0.5);
-    text-align: center;
+    text-align: center;  
     }
     
     .footer img{
@@ -1638,10 +1652,10 @@ background-position: center;
     
     .TextFooter{
         text-align: center;
-        padding:2vh;
+        padding:1vh;
     }
     .TextFooter h1{
-        font-size:3vh;
+        font-size:4vh;
         color:Black;
     }
     
