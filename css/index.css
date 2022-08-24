@@ -4,6 +4,8 @@
      
     box-sizing: border-box;
 }
+
+
 .loader{
  position:fixed;
 z-index:99;
@@ -18,10 +20,10 @@ z-index:99;
 }
 .loader img{
     
-width:300px;
-    height: 300px;
+width:150px;
+    height:150px;
 }
-}
+
 .load > img {
 width:300px;
     height: 300px;
@@ -39,7 +41,26 @@ width:300px;
 	
 }
 
+
+
+
+
+
+
+
+
 @media (min-width: 1900px) {
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
 .Google_play{
     position:absolute;
     right: 0%;
@@ -851,6 +872,16 @@ and (max-device-width: 480px)
     }  
 }
 @media (min-width: 1200px) and (max-width: 1899.9px) {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   .slideshow-container{
         display: none;
     }
@@ -1248,6 +1279,10 @@ background-position: center;
     
 }
 @media (min-width: 100px) and (max-width: 1199px) {
+ 
+
+
+
     
     
     .slideshow-container{
