@@ -1458,17 +1458,11 @@ background-position: center;
     
     .block__image__description1{
        
-       padding:3vh;
-        border:2px solid;
-          border-color: rgba(245	245	220/ 10%);
-    background-color: rgba(245	245	220/ 80%);
+    
    
     }
     .block__image__description2{
-          padding: 3vh;
-        border:2px solid;
-        border-color:rgba(0	222	255/ 10%);
-        background-color:rgba(0	222	255/ 80%);
+         
         
     }
     
