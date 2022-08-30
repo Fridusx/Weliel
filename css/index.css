@@ -53,7 +53,9 @@ width:300px;
     
 
 
-
+    .Mobile-info{
+        display: none;
+    }
     
     
     
@@ -876,7 +878,9 @@ and (max-device-width: 480px)
     
     
     
-    
+    .Mobile-info{
+        display:none;
+    }
     
     
     
@@ -1002,9 +1006,11 @@ background-position: center;
         background-position:center;
     }  
     .flipImage1{
+        padding: 2vh;
         text-align: center;
     }
     .flipImage{
+        padding: 2vh;
         text-align: center;
     }
     
@@ -1038,6 +1044,7 @@ background-position: center;
     }
     
     .block__image__description1{
+       
        
        padding: 3vh;
         border:2px solid;
@@ -1282,7 +1289,9 @@ background-position: center;
  
 
 
-
+    .PCFlip{
+    display:none;
+    }
     
     
     .slideshow-container{
@@ -1352,8 +1361,8 @@ background-position: center;
     
     .info{
         background-image: url(../image/Weliel_Games_Google_play.webp);
- background-size: cover;
-        background-position:center;
+     background-size: cover;
+       
     }  .topnav #myLinks {
   display: none;
 }
@@ -1412,42 +1421,24 @@ background-position: center;
         font-size:10vh;
     }
     
-    .MobilefliImage{
-        padding:2vh;
-    }
     
-    .Fridus{
-            text-align: center;
-        padding:3vh;
-        
-    }
-    .Fridus img{
-        
-       width: 294px;
-        height: 171px;
-    }
-    
-    .Beast{
+    .Mobile-info{
+        padding: 2vh;
         text-align: center;
-       padding:1vh;
-     
-    }
-    .Beast img{
-        
-      width:320px;
-        height:180px;  
     }
     
     
     
-    .image_title{
+    
+    
+    .image_titleMobile{
         text-align: center;
           padding:2vh;
         color:Black;
         font-size:10vh;
         text-shadow: 2px 2px 1px;
     }
-    .image_title2{
+    .image_title2Mobile{
          
         text-align: center;
           padding:2vh;
@@ -1456,17 +1447,8 @@ background-position: center;
         text-shadow: 2px 2px 1px;
     }
     
-    .block__image__description1{
-       
     
-   
-    }
-    .block__image__description2{
-         
-        
-    }
-    
-    .flipImage a {
+    .Fridus-Mobile a {
        
       font-family: 'Amatic SC', cursive;
         color:black;
@@ -1474,7 +1456,7 @@ background-position: center;
     }
     
     
-    .flipImage1 a {
+    .Beast-Mobile a {
       
         font-family: 'Amatic SC', cursive;
         color:black;
@@ -1574,7 +1556,16 @@ background-position: center;
     }
     
     
-   
+    .Contact{
+    background-position: top;
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/Fridusgame2.webp);
+height:150vh;
+background-size:cover;
+background-position: center;
+
+
+    
+}
     
     
     
