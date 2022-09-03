@@ -1059,16 +1059,7 @@ background-position: center;
         background-color:rgba(0	222	255/ 80%);
         
     }
-    .ImageBeast-Mobile{
-width:108px;
-Height:100px;
-}
-.ImageFridus-Mobile{
-
-width:108px;
-Height:100px;
-
-}
+    
     .flipImage a {
       font-family: 'Amatic SC', cursive;
         color:black;
@@ -1396,8 +1387,8 @@ background-position: center;
 }
     .topnav a img{
       
-      width: 50px;
-        height: 50px;
+      width: 70px;
+        height: 70px;
     }
    .WGamesNavigatorM{
       text-align:center;
@@ -1432,13 +1423,20 @@ background-position: center;
     
     
     .Mobile-info{
-        padding: 2vh;
+        padding: 1vh;
         text-align: center;
     }
     
     
-    
-    
+    .image__imgFridus{
+       width: 244px;
+        height:161px;
+        
+    }
+    .image__imgBeast{
+          width: 244px;
+        height:161px; 
+    }
     
     .image_titleMobile{
         text-align: center;
@@ -1456,22 +1454,12 @@ background-position: center;
         text-shadow: 2px 2px 1px;
     }
     
-       }
-    .ImageBeast-Mobile{
-width:108px;
-Height:100px;
-}
-.ImageFridus-Mobile{
-
-width:108px;
-Height:100px;
-
-}
+    
     .Fridus-Mobile a {
        
       font-family: 'Amatic SC', cursive;
         color:black;
-      font-size:6vh;
+      font-size:10vh;
     }
     
     
@@ -1479,7 +1467,7 @@ Height:100px;
       
         font-family: 'Amatic SC', cursive;
         color:black;
-     font-size:6vh;
+     font-size:10vh;
     }
     
     .GetItNow{
@@ -1491,7 +1479,7 @@ Height:100px;
     }
     .GetItNow a{
       font-family: 'Rampart One', cursive;
-    font-size:5vh;
+    font-size:9vh;
         padding: 2vh;
         text-decoration: none;
         color:white;
@@ -1532,14 +1520,14 @@ Height:100px;
         padding:2vh;
         font-family: 'Hammersmith One', sans-serif;
         color:white;
-        font-size:5vh;
+        font-size:8vh;
           font-weight:bold;
         
     }
     .AboutTxt h3{
         font-family: 'Hammersmith One', sans-serif;
         color:black;
-        font-size:4vh;
+        font-size:7vh;
     }
     
     
@@ -1612,7 +1600,7 @@ background-position: center;
   background: white;
   border: 0.1vh solid rgba(216, 216, 216, 0.3);
   color: #777;
-  font-size: 3vh;
+  font-size: 4vh;
   padding: 1vh 1vh;
   min-width:30%;
   border-radius:1vh;
@@ -1685,7 +1673,7 @@ background-position: center;
         padding:1vh;
     }
     .TextFooter h1{
-        font-size:4vh;
+        font-size:6vh;
         color:Black;
     }
     
