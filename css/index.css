@@ -1456,7 +1456,17 @@ background-position: center;
         text-shadow: 2px 2px 1px;
     }
     
-    
+       }
+    .ImageBeast-Mobile{
+width:108px;
+Height:100px;
+}
+.ImageFridus-Mobile{
+
+width:108px;
+Height:100px;
+
+}
     .Fridus-Mobile a {
        
       font-family: 'Amatic SC', cursive;
