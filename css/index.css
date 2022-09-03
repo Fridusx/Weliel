@@ -1059,7 +1059,16 @@ background-position: center;
         background-color:rgba(0	222	255/ 80%);
         
     }
-    
+    .ImageBeast-Mobile{
+width:108px;
+Height:100px;
+}
+.ImageFridus-Mobile{
+
+width:108px;
+Height:100px;
+
+}
     .flipImage a {
       font-family: 'Amatic SC', cursive;
         color:black;
