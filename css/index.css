@@ -237,6 +237,7 @@ position:absolute;
     display: inline-block;
 }
 
+    
 .home_navigatorWGames li a{
    text-decoration: none;
 font-size:20vh;
@@ -1385,19 +1386,38 @@ background-position: center;
   right:0;
   top:0;
 }
-    .topnav a img{
+    
+    .active img
+    {
+      
+      width:60px;
+        height:60px;
+    }
+    
+    
+    .Instagramtopnav a img{
+      
+      width:70px;
+        height:70px;
+    }
+    .Telegramtopnava img{
       
       width: 70px;
         height: 70px;
     }
+    
    .WGamesNavigatorM{
       text-align:center;
        
     }
     .WGamesNavigatorM img {
-        width:360px;
-        height:640px; 
+        width:480px;
+        height:270px; 
     }
+    
+    
+    
+    
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -1463,7 +1483,7 @@ background-position: center;
         padding:1vh;
     }
     
-    
+
     
     
     .GetItNow{
@@ -1506,14 +1526,14 @@ background-position: center;
     
     
     .AboutTxt{
-        padding:3vh;
+        padding:1vh;
         font-family: 'Hammersmith One', sans-serif;
         text-align:center;
         
     }
     
     .AboutTxt h1{
-        padding:2vh;
+        padding:1vh;
         font-family: 'Hammersmith One', sans-serif;
         color:white;
         font-size:8vh;
@@ -1521,7 +1541,7 @@ background-position: center;
         
     }
     .AboutTxt h3{
-         padding:3vh;
+         padding:1vh;
         font-family: 'Hammersmith One', sans-serif;
         color:black;
         font-size:7vh;
@@ -1625,54 +1645,20 @@ background-position: center;
     
     
     
- .Welielfooter img{
-        width:90px;
-    height:90px; 
-    }
+
     
     
     
-  .Instagramfooter img{
-        width:90px;
-    height:90px; 
-    }
-    
-    .Telegramfooter img{
-        width:90px;
-    height:90px; 
-    }
-    .WelielGamesfooter img{
-       width:144px;
-    height:81px;   
-    }
-    
-    
-    
-    
-    
-    
-    
-    .footer{
-        padding:2vh;
-      border: 2px solid;
-        border-color: rgba(104,104,104 , 0.5);
-        background-color: rgba(104,104,104, 0.5);
-    text-align: center;  
-    }
-    
-    .footer img{
-        padding:2vh;
-    }
+ 
    
     
-    .TextFooter{
-        text-align: center;
-        padding:1vh;
-    }
-    .TextFooter h1{
-        font-size:6vh;
-        color:Black;
-    }
+    
+    
+    
+    
+    
+    
+    
     
     
     
