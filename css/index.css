@@ -1386,16 +1386,16 @@ background-position: center;
   right:0;
   top:0;
 }
-    
-    .active img
-    {
-      
-      width:70px;
-        height:70px;
+    .BTNM img{
+     width:70px;
+        height:70px; 
+        
     }
-    .BTNClick{
-        width:70px;
-        height:70px;
+    
+    .topnav img{
+       width:70px;
+        height:70px; 
+         
     }
     
     .Instagramtopnav a img{
