@@ -1390,10 +1390,13 @@ background-position: center;
     .active img
     {
       
-      width:60px;
-        height:60px;
+      width:70px;
+        height:70px;
     }
-    
+    .BTNClick{
+        width:70px;
+        height:70px;
+    }
     
     .Instagramtopnav a img{
       
