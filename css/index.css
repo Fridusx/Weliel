@@ -1016,12 +1016,12 @@ background-position: center;
     }
     
     .Fridus img {
-        width: 100vh;
-        height: 50vh;
+        width:640px;
+        height:288px;
     }   
     .Beast img {
-          width: 100vh;
-        height: 45vh;
+          width: 1024px;
+        height: 460.5px;
     }
      
     .MobilefliImage::after{
@@ -1240,53 +1240,10 @@ background-position: center;
     
     
     
-    .footer{
-        border: 2px solid;
-        border-color: rgba(104,104,104 , 0.5);
-        background-color: rgba(104,104,104, 0.5);
-    }
-    
-    .Soc2 {
-        
-     text-align:right;
-       
-    }
-    .Soc2 img{
-         padding:10px;
-    }
-    
-   .WelielGamesfooter img{
-       width:144px;
-    height:81px; 
-    
-    }
-    
-    .Welielfooter img{
-        width:90px;
-    height:90px; 
-    }
-    
-  .Instagramfooter img{
-        width:90px;
-    height:90px; 
-    }
-    
-    .Telegramfooter img{
-        width:90px;
-    height:90px; 
-    }
-    
-    .TextFooter{
-        text-align: center;
-        padding:2vh;
-    }
-    .TextFooter h1{
-        font-size:3vh;
-        color:Black;
-    }   
+  
     
 }
-@media (min-width: 100px) and (max-width: 1199px) {
+@media (min-width: 1px) and (max-width: 1199px) {
  
 
 
@@ -1374,7 +1331,8 @@ background-position: center;
   text-decoration: none;
   font-size:5vh;
   display: block;
-    
+      right:0;
+  top:0;
     
     
 }
@@ -1383,8 +1341,7 @@ background-position: center;
   background: rgba(0, 0, 0, 0.5);
   display: block;
   position: absolute;
-  right:0;
-  top:0;
+
 }
     .BTNM img{
      width:70px;
@@ -1414,17 +1371,14 @@ background-position: center;
        
     }
     .WGamesNavigatorM img {
-        width:480px;
-        height:270px; 
+        width:240px;
+        height:135px; 
     }
     
     
+   
     
-    
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+
     .Oldtopnav{
         text-align: center;
     }
@@ -1449,17 +1403,37 @@ background-position: center;
         padding: 1vh;
         text-align: center;
     }
-    
-    
+}
+    @media (min-width: 1px) and (max-width: 400px) {
+        
     .image__imgFridus{
+       width:147px;
+        height:85.5px;
+        
+    }
+    .image__imgBeast{
+          width:160px;
+        height:90px; 
+    }
+        
+    }
+    
+
+@media (min-width: 401px) and (max-width: 1199px) {
+
+ .image__imgFridus{
        width:294px;
         height:171px;
         
     }
     .image__imgBeast{
-          width: 320px;
+          width:320px;
         height:180px; 
     }
+
+}
+      @media (min-width: 1px) and (max-width: 1199px) {
+    
     
     .image_titleMobile{
         text-align: center;
