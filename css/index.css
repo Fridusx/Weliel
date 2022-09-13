@@ -1360,13 +1360,13 @@ background-position: center;
     }
     
     .Instagramtopnav a img{
-       max-width:100%;
-        height:auto; 
+      width:70px;
+        height:70px; 
      
     }
     .Telegramtopnava img{
-       max-width:100%;
-        height:auto; 
+         width:70px;
+        height:70px; 
     
     }
     
@@ -1411,13 +1411,13 @@ background-position: center;
     @media (min-width: 1px) and (max-width: 400px) {
         
     .image__imgFridus{
-       
-          max-width:100%;
-        height:auto; 
+       max-width:100%;
+        height:auto;
+            
     }
     .image__imgBeast{
-         max-width:100%;
-        height:auto;
+           width:70px;
+        height:70px; 
     }
         
     }
@@ -1426,13 +1426,14 @@ background-position: center;
 @media (min-width: 401px) and (max-width: 1199px) {
 
  .image__imgFridus{
-       max-width:100%;
-        height:auto;   
+     width:256px;
+        height:115.2px; 
+          
         
     }
     .image__imgBeast{
-          max-width:100%;
-        height:auto;
+          width:160px;
+        height:90px;
     }
 
 }
