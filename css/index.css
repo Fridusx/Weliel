@@ -1344,26 +1344,30 @@ background-position: center;
 
 }
     .BTNM img{
-     width:70px;
-        height:70px; 
-        
+    
+           max-width:100%;
+        height:auto;  
+ 
     }
     
     .topnav img{
-       width:70px;
-        height:70px; 
+                
+        width:70px;
+        height:70px;  
+
+       
          
     }
     
     .Instagramtopnav a img{
-      
-      width:70px;
-        height:70px;
+       max-width:100%;
+        height:auto; 
+     
     }
     .Telegramtopnava img{
-      
-      width: 70px;
-        height: 70px;
+       max-width:100%;
+        height:auto; 
+    
     }
     
    .WGamesNavigatorM{
@@ -1407,13 +1411,13 @@ background-position: center;
     @media (min-width: 1px) and (max-width: 400px) {
         
     .image__imgFridus{
-       width:147px;
-        height:85.5px;
-        
+       
+          max-width:100%;
+        height:auto; 
     }
     .image__imgBeast{
-          width:160px;
-        height:90px; 
+         max-width:100%;
+        height:auto;
     }
         
     }
@@ -1422,13 +1426,13 @@ background-position: center;
 @media (min-width: 401px) and (max-width: 1199px) {
 
  .image__imgFridus{
-       width:294px;
-        height:171px;
+       max-width:100%;
+        height:auto;   
         
     }
     .image__imgBeast{
-          width:320px;
-        height:180px; 
+          max-width:100%;
+        height:auto;
     }
 
 }
@@ -1534,10 +1538,10 @@ background-position: center;
   
 
     .Img_AboutWeliel img{
-     
-        width:200px;
+         width:200px;
         height:250px;
  
+      
     }
     .CreatorName h1{
         font-family: 'Dancing Script', cursive;
