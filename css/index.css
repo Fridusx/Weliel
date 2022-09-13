@@ -1320,6 +1320,8 @@ background-position: center;
     .info{
         background-image: url(../image/Weliel_Games_Google_play.webp);
      background-size: cover;
+        
+        border: 1px solid red;
        
     }  .topnav #myLinks {
   display: none;
@@ -1416,8 +1418,8 @@ background-position: center;
             
     }
     .image__imgBeast{
-           width:70px;
-        height:70px; 
+          max-width:100%;
+        height:auto; 
     }
         
     }
@@ -1426,14 +1428,14 @@ background-position: center;
 @media (min-width: 401px) and (max-width: 1199px) {
 
  .image__imgFridus{
-     width:256px;
-        height:115.2px; 
+      max-width:100%;
+        height:auto; 
           
         
     }
     .image__imgBeast{
-          width:160px;
-        height:90px;
+          max-width:100%;
+        height:auto; 
     }
 
 }
