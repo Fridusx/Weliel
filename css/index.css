@@ -1419,14 +1419,14 @@ background-position: center;
         
     .image__imgFridus{
       position: relative;
-width: 70%;
+max-width: 100%;
 height: auto;
 ;
             
     }
     .image__imgBeast{
-       position: relative;
-width: 70%;
+    position: relative;
+max-width: 100%;
 height: auto;
 
     }
@@ -1438,14 +1438,14 @@ height: auto;
 
  .image__imgFridus{
  position: relative;
-width: 70%;
+max-width: 100%;
 height: auto;
 
         
     }
     .image__imgBeast{
-   position: relative;      
-width: 70%;
+    position: relative;
+max-width: 100%;
 height: auto;
 
     }
