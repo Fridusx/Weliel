@@ -1,0 +1,40 @@
+/* Set the size of the div element that contains the map */
+#map {
+    padding: 20px;
+    text-align-last: center;
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 25% , center;
+  /* The width is the width of the web page */
+}
+.map2{
+
+    
+width: 600px; 
+height: 300px; 
+    
+   
+  
+}
+.baner{
+  text-align: center;
+    padding: 10px;
+
+    
+    
+    
+}
+
+
+
+#City_Riga {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
