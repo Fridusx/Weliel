@@ -1409,17 +1409,26 @@ background-position: center;
         padding: 1vh;
         text-align: center;
     }
+  
+    
+    
+    
+    
 }
     @media (min-width: 1px) and (max-width: 400px) {
         
     .image__imgFridus{
-       max-width:100%;
-        height:auto;
+      position: relative;
+width: 70%;
+height: auto;
+;
             
     }
     .image__imgBeast{
-          max-width:100%;
-        height:auto; 
+       position: relative;
+width: 70%;
+height: auto;
+
     }
         
     }
@@ -1428,14 +1437,17 @@ background-position: center;
 @media (min-width: 401px) and (max-width: 1199px) {
 
  .image__imgFridus{
-      max-width:100%;
-        height:auto; 
-          
+ position: relative;
+width: 70%;
+height: auto;
+
         
     }
     .image__imgBeast{
-          max-width:100%;
-        height:auto; 
+   position: relative;      
+width: 70%;
+height: auto;
+
     }
 
 }
