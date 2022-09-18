@@ -1443,7 +1443,49 @@ background-position: center;
       font-size:8vh;
         padding:1vh;
     }
+          
+          
+    @media (min-width: 1px) and (max-width: 400px) {
+        
+    .image__imgFridus{
+      position: relative;
+max-width: 100%;
+height: auto;
+;
+            
+    }
+    .image__imgBeast{
+    position: relative;
+max-width: 100%;
+height: auto;
+
+    }
+        
+    }
     
+
+@media (min-width: 401px) and (max-width: 1199px) {
+
+ .image__imgFridus{
+ position: relative;
+max-width: 100%;
+height: auto;
+
+        
+    }
+    .image__imgBeast{
+    position: relative;
+max-width: 100%;
+height: auto;
+
+    }
+
+}
+          
+          
+          
+          
+          
 
     
     
