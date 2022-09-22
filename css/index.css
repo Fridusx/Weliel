@@ -1307,11 +1307,7 @@ background-position: center;
     
     
 .active {
-  background-image: url(../image/Weliel_Games_Google_play.webp);
-    background-size:cover;
-background-position: center;
-
-  color: white;
+  
 }
     
     
@@ -1505,9 +1501,7 @@ height: auto;
     }
    
     .AboutWeliel{
-     background-image: url(../image/Latvia_Riga.webp);
-        background-size: cover;
-        background-position:center; 
+    
         
     }
     
@@ -1583,11 +1577,7 @@ height: auto;
     
     
     .Contact{
-    background-position: top;
-   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/Fridusgame2.webp);
-height:150vh;
-background-size:cover;
-background-position: center;
+    
 
 
     
