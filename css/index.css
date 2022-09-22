@@ -441,12 +441,7 @@ transform: translate(-50%,-50%);
 
     
     .AboutWeliel{
-      background-position: top;
-          width:100%;
-            height:100vh;
-            background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../image/Latvia_Riga.webp);
-background-size: cover;
-background-position: center;
+      
     }
     
     
@@ -528,11 +523,7 @@ transform: translate(-50%,-50%);
     
     
     .Contact{
-    background-position: top;
-   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/Fridusgame2.webp);
-height:100vh;
-background-size:cover;
-background-position: center;
+  
 
 
     
@@ -1002,9 +993,7 @@ background-position: center;
     
     
     .info{
-        background-image: url(../image/Weliel_Games_Google_play.webp);
- background-size: cover;
-        background-position:center;
+   
     }  
     .flipImage1{
         padding: 2vh;
@@ -1090,9 +1079,7 @@ background-position: center;
     }
    
     .AboutWeliel{
-     background-image: url(../image/Latvia_Riga.webp);
-        background-size: cover;
-        background-position:center; 
+    
         
     }
     
@@ -1162,11 +1149,7 @@ background-position: center;
     
     
     .Contact{
-    background-position: top;
-   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/Fridusgame2.webp);
-height:150vh;
-background-size:cover;
-background-position: center;
+
 
 
     
