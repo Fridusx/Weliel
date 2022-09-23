@@ -57,7 +57,9 @@ width:300px;
         display: none;
     }
     
-    
+     .InfoMobile{
+        display:none;
+    }
     
     
     
@@ -883,7 +885,9 @@ and (max-device-width: 480px)
         display:none;
     }
     
-    
+    .InfoMobile{
+        display:none;
+    }
     
     
     
@@ -1311,13 +1315,16 @@ background-position: center;
     
     
     
-    .info{
-       
-        
-       
-       
-    }  .topnav #myLinks {
+    .topnav{
+     background-position: top;
+          width:100%;
+         
+            background-image: url(../image/Fridusgame4.webp);
+background-size:cover;  
+    }
+    .topnav #myLinks {
   display: none;
+        
 }
 
 .topnav a {
@@ -1411,72 +1418,42 @@ background-position: center;
     
       @media (min-width: 1px) and (max-width: 1199px) {
     
-    
-    .image_titleMobile{
-        text-align: center;
-          padding:2vh;
-        color:Black;
-        font-size:10vh;
-        text-shadow: 2px 2px 1px;
-    }
-    .image_title2Mobile{
-         
-        text-align: center;
-          padding:2vh;
-        color:Black;
-        font-size:10vh;
-        text-shadow: 2px 2px 1px;
-    }
-    
-    
-    .image__descriptionMobile a{
-       
-      font-family: 'Amatic SC', cursive;
-        color:black;
-      font-size:8vh;
-        padding:1vh;
-    }
+          .InfoMobile{
+              text-align: center;
+              padding:2vh;
+          }
+          .Name1 h1{
+             font-family: 'Rampart One', cursive;
+  
           
-          
-    @media (min-width: 1px) and (max-width: 400px) {
-        
-    .image__imgFridus{
-      position: relative;
-max-width: 100%;
-height: auto;
-;
+          }
+          .Name2 h1{
+                font-family: 'Rampart One', cursive;
+  
+             
+          }
+          .describe{
+              font-family: 'Hammersmith One', sans-serif;
+                font-weight: bold;
             
-    }
-    .image__imgBeast{
-    position: relative;
-max-width: 100%;
-height: auto;
-
-    }
-        
-    }
-    
-
-@media (min-width: 401px) and (max-width: 1199px) {
-
- .image__imgFridus{
- position: relative;
-max-width: 100%;
-height: auto;
-
-        
-    }
-    .image__imgBeast{
-    position: relative;
-max-width: 100%;
-height: auto;
-
-    }
-
-}
+          }
           
-          
-          
+          .image__imgFridus{
+              width: 160px;
+              height: 72px;
+          }
+          .image__imgBeast{
+              width: 205px;
+              height:92px;
+          }
+          .InfoMobile{
+            background-position: top;
+          width:100%;
+            height:100%;
+            background-image: url(../image/Weliel_Games_Google_play.webp);
+background-size:cover;   
+          }
+           
           
           
 
@@ -1503,10 +1480,22 @@ height: auto;
     
     
     
+    .AboutWeliel{
+             background-position: top;
+          width:100%;
+            
+            background-image: url(../image/Latvia_Riga.webp);
+background-size:cover; 
+          } 
     
     
-    
-    
+          .Contact{
+             background-position: top;
+          width:100%;
+            
+            background-image: url(../image/Fridusgame2.webp);
+background-size:cover;  
+          }
     
     
     
@@ -1544,6 +1533,7 @@ height: auto;
 
      .Img_AboutWeliel{
         text-align:center;
+         padding:1vh;
     }
   
 
