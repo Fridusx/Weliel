@@ -2,7 +2,7 @@
   margin:0;
     padding: 0;
      
-    box-sizing: border-box;
+    
 }
 
 
@@ -566,50 +566,14 @@ background-position: center;
 
 
 
-.field {
-  margin-bottom: 10vh;
-  
-}
 
-.field label {
-  display: block;
-  font-size: 12vh;
-  color: #777;
-}
 
-.field input {
-  display: block;
-  min-width:250px;
-  line-height:1.5;
-  font-size:14vh;
- 
-}
 
-input[type="submit"] {
-    color: white;
-  padding: 1.5vh 3vh;
-  margin: 2vh auto 0;
-  display: block;
-  padding: 4vh 6vh;
-  font-size: 2vh;
-  background-color: #4460AA;
-  
-  border: #4460AA;
 
- 
-  
-  
-  
 
-}
 
-.wrapper {
-  width: 100%;
-  padding-right: 15vh;
-  padding-left: 15vh;
-  margin-right: auto;
-  margin-left: auto;
-}
+
+
 
 @media (min-width: 576vh) {
   .wrapper {
@@ -1315,12 +1279,7 @@ background-position: center;
     }
     
 
-.topnav {
-    position: absolute;
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
+
 
 
    
@@ -1332,17 +1291,26 @@ background-position: center;
     
     
     .topnav{
-     background-position: top;
-          width:100%;
+    
+   width: 100%;
+   
+    background-size:cover;
+      
+   
          
             background-image: url(../image/Fridusgame4.webp);
-background-size:cover;  
+
     }
     .topnav #myLinks {
   display: none;
         
 }
-
+.topnav {
+  
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
 .topnav a {
   color: white;
   padding:2vh;
@@ -1437,15 +1405,29 @@ background-size:cover;
         text-align: center;
     }
   
+     .InfoMobile{
+            
+           
+            background-image: url(../image/Weliel_Games_Google_play.webp);
+ 
+              width:100%;
+    
+   
+    background-size: cover;
+    background-position: center;  
+              
+          }
+           
     
     
     
-    
-}
-    
-      @media (min-width: 1px) and (max-width: 1199px) {
-    
-          .InfoMobile{
+
+          
+          
+          
+          
+         
+          .InfoCenter{
               text-align: center;
               padding:2vh;
           }
@@ -1473,30 +1455,25 @@ background-size:cover;
               width: 205px;
               height:92px;
           }
-          .InfoMobile{
-            background-position: top;
-          width:100%;
-           
-            background-image: url(../image/Weliel_Games_Google_play.webp);
-background-size:cover;   
-          }
-           
-          
-          
+         
+  
+         
 
     
     
     .GetItNow{
-        padding:7vh;
-         text-align: center;
+       
+          text-align: center;
+    }
+      .BtnGetItNow{ 
         border: 4px solid;
         border-color: black;
-        background-color: black; 
+        background-color: black;
     }
-    .GetItNow a{
+    .GetItNow a{   
       font-family: 'Rampart One', cursive;
-  font-size:5vh;
-        padding:2vh;
+  font-size:3vh;
+  
         text-decoration: none;
         color:white;
         font-weight: bold;
@@ -1508,20 +1485,30 @@ background-size:cover;
     
     
     .AboutWeliel{
-             background-position: top;
-          width:100%;
-            
-            background-image: url(../image/Latvia_Riga.webp);
-background-size:cover; 
+  
+     width:100%;
+    
+   
+    background-size: cover;
+    background-position: center;  
+              
+   background-image: url(../image/Latvia_Riga.webp);
+  
           } 
     
     
           .Contact{
-             background-position: top;
-          width:100%;
+          
+
+	width:100%;
+    
+   
+    background-size: cover;
+    background-position: center;  
+              
             
             background-image: url(../image/Fridusgame2.webp);
-background-size:cover;  
+  
           }
     
     
@@ -1543,7 +1530,7 @@ background-size:cover;
         padding:1vh;
         font-family: 'Hammersmith One', sans-serif;
         color:white;
-        font-size:8vh;
+        font-size:4vh;
           font-weight:bold;
         
     }
@@ -1551,7 +1538,7 @@ background-size:cover;
          padding:1vh;
         font-family: 'Hammersmith One', sans-serif;
         color:black;
-        font-size:7vh;
+        font-size:3vh;
     }
     
     
@@ -1595,66 +1582,10 @@ background-size:cover;
     
     
     
-    .contact-form {
-  background: #f8f9fa;
-}
-
-.field {
-  margin-bottom: 0.5vh;
-  background: white;
-}
-
-.form-mid {
- 
-  padding: 0.2rem;
-  border: 0.1vh solid white;
-  border-radius: 0.1vh;
-}
-
-.form-mid form input,
-.form-mid form textarea {
-  background: white;
-  border: 0.1vh solid rgba(216, 216, 216, 0.3);
-  color: #777;
-  font-size: 4vh;
-  padding: 1vh 1vh;
-  min-width:30%;
-  border-radius:1vh;
-  min-height:auto;
-   
-}
-       
-   
-
-.form-mid form textarea {
-  
-    resize: none;
-  min-height:30vh;
-   
-   
-}
-.form-mid form input:focus,
-.form-mid form textarea:focus {
-  outline: none;
-  border: 0.1vh solid #051b35;
-  background: white;
-  box-shadow: none;
-}
     
-    
-    
+      
     
 
-    
-    
-    
- 
-   
-    
-    
-    
-    
-    
     
     
     
@@ -1662,9 +1593,6 @@ background-size:cover;
     
     
 }
-
-
-
 
 
 
