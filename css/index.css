@@ -41,14 +41,69 @@ width:300px;
 	
 }
 
+/* Hello*/
+.create-QR{
+  
+ text-align: center;
+  padding:20px;
+  background-color:lightpink;
+}
+
+.container{
+  width:100%;
+ 
 
 
 
 
+}
+.container p{
+  font-size: 4vh;
+
+}
+.container input{
+  text-align: center;
+  width:50%;
+  height:50px;
+  border:1px solid white;
+  outline:0;
+  padding:10px;
+  margin:10px 0 20px;
+  border-radius:5px;
+}
+.container button{
+  text-align: center;
+  width:50%;
+  height:50px;
+  background: pink;
+color:black;
+border:0;
+outline:0;
+border-radius:5px;
+box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+cursor:pointer;
+margin:20px 0;
+font-weight:500;
+}
+#imgBox{
+  width:200px;
+  border-radius:5px;
+  max-height:0;
+overflow:hidden;
+transition: max-height 1s;
+}
+#imgBox img{
+  width:100%;
+  
+}
+#imgBox.show-img{
+  max-height:300px;
+  margin:10px auto;
+  border:1px solid #d1d1d1;
+}
 
 
-
-
+/*Hello */
 @media (min-width: 1900px) {
     
 

@@ -183,6 +183,14 @@ Please change your browser :(
         
         </section></navigotor>
     
+
+
+
+
+
+
+
+
     <div class="AboutWeliel2" id="WelielGames"></div>
     
   
@@ -451,7 +459,41 @@ Weliel is a collection of student projects. I live in Riga, Latvia. In this blog
     
         
      
+ 
+
+  <div class="create-QR">
   
+    <div class="container">
+      <p>Enter your text or URL</p>
+      <input type="text" placeholder="Text or URL" id="qrText">
+  
+      <div id="imgBox">
+          <img src="" id="qrImage">
+      </div>
+  
+      <button onclick="generateqr()"> Generate QR Code</button>
+  </div>
+  
+  
+  
+  
+  
+  
+  <script>
+  
+  let imgBox = document.getElementById("imgBox");
+  let qrImage = document.getElementById("qrImage");
+  let qrText = document.getElementById("qrText");
+  
+  function generateqr(){
+  qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="
+   + qrText.value;
+   imgBox.classList.add("show-img");
+  }
+  
+  
+  </script>
+  </div>
       
   
  
