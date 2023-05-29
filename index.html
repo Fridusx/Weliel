@@ -1,11 +1,5 @@
 <html dir="ltr" lang="en-GB">
 <head>
-	
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6883629262442789"
-     crossorigin="anonymous"></script>
-	
-	
-	
  <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Weliel</title>
     <link rel="icon" href="image/logo.png" type="image/x-icon" alt="Weliel_logo">
@@ -83,14 +77,16 @@
         </li>
     </div>
      
-         
+        <div class="home_navigatorWOld">
+            <li><a href="https://beautifulplaces.cf/" >LabsChat</a></li>
             
-            
+        </div> 
+       
         <div class="home_navigatorWContact">
-            <li><a href="https://www.weliel.tk/contact%20Me" > @</a></li>
+            <li><a href="#Mail" >@</a></li>
         
         </div>
-      
+        
           
             
         </div>
@@ -122,7 +118,7 @@
     <div class="WGamesNavigatorM">
     <a href="#Games"><img src="image/welielgamelogo.png" alt="Weliel Games Logo"></a></div>
       <div class="Oldtopnav">
-    <a href="https://www.weliel.tk/old">Old Weliel</a>
+    <a href="https://beautifulplaces.cf/">LabsChat</a>
           </div>
       <div class="Mailtopnav">
     <a href="#Mail">@</a>
@@ -339,11 +335,22 @@ The objective of the game is to get the puck in the goal of your opponent. But w
         <div class="GetItNow">
             <div class="BtnGetItNow">
         <a href="https://play.google.com/store/apps/dev?id=4899230561585487181&hl=en&gl=US">Download</a>
+        
         </div>
         </div>  
     
-   
-    
+        
+
+
+
+
+
+  
+
+
+
+
+
     
     <div class="AboutWeliel">
     
@@ -479,7 +486,7 @@ Weliel is a collection of student projects. I live in Riga, Latvia. In this blog
   
   
   
-  
+
   
   
   <script>
@@ -500,7 +507,7 @@ Weliel is a collection of student projects. I live in Riga, Latvia. In this blog
       
   
  
-      
+
  
     
   <script type="text/javascript">
@@ -519,6 +526,20 @@ Weliel is a collection of student projects. I live in Riga, Latvia. In this blog
   emailjs.init('user_Fna75sxlzUh1HnsrbCvn1')
 </script>
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
 
 	
@@ -613,5 +634,97 @@ function myFunction() {
 	
 			
 	</script> 
+
+
+
+
+<div class="popup-overlay">
+  <div class="popup-container">
+    <div class="left">
+      <img   class="bg" src="image/bigLabsChat.png" alt="Labs Chat">
+      <img   class="small-bg" src="image/bigLabsChat.png" alt="Labs Chat">
+    </div>
+    <div class="right">
+      <div class="skip-button">Skip in 10s</div>
+      <p class="logo">LabsChat</p>
+  <h2 class="popu-heading">Weliel new project </h2>
+   <p class="description">Check our new social media!</p>
+   
+   <a href="https://beautifulplaces.cf/index.php" class="visit-button">Visit Site</a>
+  </div>
+  </div>
+    </div>
+
+
+
+
+
+
+
+<script type="text/javascript">
+const popupOverlay = document.querySelector(".popup-overlay");
+const skipButton = document.querySelector(".popup-container .skip-button");
+const visitButton = document.querySelector(".popup-container .visit-button");
+const div =  document.querySelector('div');
+
+let remainingTime = 10;
+let allowedToSkip = false;
+let popupTimer;
+
+const createPopupCookie = () => {
+  let expiresDays = 1;
+  let date = new Date();
+  date.setTime(date.getTime() + expiresDays * 24 * 60 * 60 * 1000);
+  let expires = "expires=" + date.toUTCString();
+  document.cookie = `popupCookie=true; ${expires}; path=/;`;
+};
+
+const showAd = () => {
+  popupOverlay.classList.add("active");
+  popupTimer = setInterval(() => {
+    skipButton.innerHTML = `Skip in ${remainingTime}s`;
+    remainingTime--;
+
+    if (remainingTime < 0) {
+      allowedToSkip = true;
+      skipButton.innerHTML = "Skip";
+      clearInterval(popupTimer);
+    }
+  }, 1000);
+};
+
+const skipAd = () => {
+  createPopupCookie();
+  popupOverlay.classList.remove("active");
+  div.classList.remove('popup-overlay');
+};
+
+skipButton.addEventListener("click", () => {
+  if (allowedToSkip) {
+    skipAd();
+  }
+});
+
+const startTimer = () => {
+  if (window.scrollY > 100) {
+    showAd();
+    window.removeEventListener("scroll", startTimer);
+  }
+};
+
+if (!document.cookie.match(/^(.*;)?\s*popupCookie\s*=\s*[^;]+(.*)?$/)) {
+  window.addEventListener("scroll", startTimer);
+}
+
+
+
+
+
+
+
+
+
+
+</script> 
 </body>
 </html>
