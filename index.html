@@ -665,7 +665,7 @@ function myFunction() {
 const popupOverlay = document.querySelector(".popup-overlay");
 const skipButton = document.querySelector(".popup-container .skip-button");
 const visitButton = document.querySelector(".popup-container .visit-button");
-const div =  document.querySelector('div');
+
 
 let remainingTime = 10;
 let allowedToSkip = false;
@@ -695,8 +695,9 @@ const showAd = () => {
 
 const skipAd = () => {
   createPopupCookie();
+  popupOverlay.classList.remove("popup-overlay");
   popupOverlay.classList.remove("active");
-  div.classList.remove('popup-overlay');
+  
 };
 
 skipButton.addEventListener("click", () => {
